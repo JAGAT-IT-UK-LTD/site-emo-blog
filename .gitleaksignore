@@ -1,0 +1,5 @@
+# gitleaks allowlist (15 Oct 2026). Reviewed: NOT real secrets.
+# Why: placeholder private-key examples in .env.example / DEPLOY.md (no real key material)
+# Real secrets must never be allowlisted; rotate them and move them to env instead.
+1098f927d9ab5efa782f71b82c3c1716baf2f48b:driverjagat/.env.example:private-key:21
+1098f927d9ab5efa782f71b82c3c1716baf2f48b:driverjagat/docs/DEPLOY.md:private-key:81
