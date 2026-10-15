@@ -1,1 +1,10 @@
 * @ruhulamin0001
+
+# Payment wall: R must review payment-related paths
+**/checkout/** @ruhulamin0001
+**/stripe/** @ruhulamin0001
+**/payments/** @ruhulamin0001
+**/payment/** @ruhulamin0001
+**/billing/** @ruhulamin0001
+**/webhook/** @ruhulamin0001
+**/webhooks/** @ruhulamin0001
