@@ -1,0 +1,29 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: site-emo-blog
+  title: "site-emo-blog"
+  description: "earningmoneyonline.co.uk custom HTML site + contentstudio. Managed via Claude Cowork."
+  annotations:
+    github.com/project-slug: JAGAT-IT-UK-LTD/site-emo-blog
+  tags: ["static-html"]
+spec:
+  type: website
+  lifecycle: production
+  owner: user:ruhulamin0001
+  system: "Content / Media"
+x-passport:
+  family: "Content / Media"
+  domains: ["earningmoneyonline.co.uk", "energysavingtrust.org.uk", "ico.org.uk"]
+  live_url: "https://earningmoneyonline.co.uk"
+  hosting: "TBC"
+  apps: "TBC"
+  payments: "TBC"
+  email: "TBC"
+  database: "TBC"
+  env_names: []
+  ai_agents: ["Claude Code", "GitHub Copilot"]
+  progress: "Last push 2026-10-15. Description: earningmoneyonline.co.uk custom HTML site + contentstudio. Managed via Claude Cowork."
+  last_updated: "2026-10-15"
+  updated_by: "Grok Bot (passport generator)"
+  completeness: 43
