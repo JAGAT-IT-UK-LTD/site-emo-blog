@@ -1,7 +1,45 @@
+# Inline copy (public repos cannot call private company-hq reusable workflows). Keep in sync with company-hq.
+# Reusable workflow: called from every org repo (.github/workflows/agent-gates.yml caller)
 name: agent-gates
 on:
   pull_request:
     types: [opened, edited, synchronize, reopened, labeled, unlabeled]
 jobs:
   gates:
-    uses: JAGAT-IT-UK-LTD/company-hq/.github/workflows/agent-gates.yml@main
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: {fetch-depth: 0}
+      - name: Collect PR info
+        id: info
+        env:
+          BODY: ${{ github.event.pull_request.body }}
+          LABELS: ${{ join(github.event.pull_request.labels.*.name, ',') }}
+          BASE: ${{ github.event.pull_request.base.sha }}
+          HEAD: ${{ github.event.pull_request.head.sha }}
+        run: |
+          git diff --name-only "$BASE" "$HEAD" > files.txt
+          echo "Changed files:"; cat files.txt
+          if grep -qvE '\.(md|txt)$|^docs/|^project/|^\.github/ISSUE_TEMPLATE/|^LICENSE' files.txt; then echo "docs_only=false" >> $GITHUB_OUTPUT; else echo "docs_only=true" >> $GITHUB_OUTPUT; fi
+      - name: Task + Agent trailers
+        if: steps.info.outputs.docs_only == 'false'
+        env: {BODY: "${{ github.event.pull_request.body }}", LABELS: "${{ join(github.event.pull_request.labels.*.name, ',') }}"}
+        run: |
+          if echo "$LABELS" | grep -q 'human'; then echo "human PR (label), skip"; exit 0; fi
+          ok=1
+          echo "$BODY" | grep -qiE '^\s*Task:\s*\S+' || { echo "::error::PR body needs 'Task: JAGAT-IT-UK-LTD/company-hq#<n>'"; ok=0; }
+          echo "$BODY" | grep -qiE '^\s*Agent:\s*\S+' || { echo "::error::PR body needs 'Agent: <name>/<model>'"; ok=0; }
+          [ $ok = 1 ]
+      - name: Payment guard
+        env:
+          LABELS: ${{ join(github.event.pull_request.labels.*.name, ',') }}
+          BASE: ${{ github.event.pull_request.base.sha }}
+          HEAD: ${{ github.event.pull_request.head.sha }}
+        run: |
+          hit=""
+          grep -iE '(^|/)(payments?|billing|checkout|stripe|webhooks?|pricing|prices?)(/|\.|$)|core-payments' files.txt && hit="paths"
+          git diff "$BASE" "$HEAD" -- . ':(exclude)*.md' ':(exclude)package-lock.json' | grep -E '^\+' | grep -iqE 'stripe|sk_live|rk_live|paystation|bkash|sslcommerz|checkout|webhook|price_|unit_amount|payout|refund' && hit="$hit keywords"
+          if [ -n "$hit" ]; then
+            echo "Payment-related change detected ($hit)."
+            if echo "$LABELS" | grep -q 'R-approved'; then echo "R-approved label present: OK"; else echo "::error::Payment wall: needs R's approval (label R-approved, set by R only)"; exit 1; fi
+          else echo "No payment-related change."; fi
