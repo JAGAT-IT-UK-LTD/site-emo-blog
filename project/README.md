@@ -1,13 +1,13 @@
 # Project passport: site-emo-blog
 
-> Family: **Content / Media** · Owner: @ruhulamin0001 · Completeness: **43%** · Generated 2026-10-15
+> Family: **Content / Media** · Owner: @ruhulamin0001 · Completeness: **52%** · Generated 2026-10-15
 > Auto-filled from repo files only; `TBC` = unknown. **Never put secret values here.** Update after every change.
 
 ## Domain & DNS
-earningmoneyonline.co.uk, energysavingtrust.org.uk, ico.org.uk (found in repo; verify DNS + registrar)
+earningmoneyonline.co.uk (VERIFIED: routed by Traefik on uk-vps (72.62.213.196, Hostinger srv1569293) 2026-10-15; TLS cert expires 2026-12-16; registrar TBC)
 
 ## Hosting/VPS & deploy
-TBC
+uk-vps (72.62.213.196, Hostinger srv1569293) (Traefik + Docker). Compose project `earningmoneyonline`, path `/root/earningmoneyonline (nginx static; synced from /root/emo-uk-repo by /root/deploy-emo.sh every 5 min)`. Containers: see path. Deploy remote: /root/emo-uk-repo → https://github.com/ruhulamin0001/emo-uk-site.git (OLD owner URL, redirect)
 
 ## GitHub
 https://github.com/JAGAT-IT-UK-LTD/site-emo-blog (public), default branch main
@@ -16,7 +16,7 @@ https://github.com/JAGAT-IT-UK-LTD/site-emo-blog (public), default branch main
 Uses design-system: https://github.com/JAGAT-IT-UK-LTD/design-system (logo/colours TBC)
 
 ## Website
-https://earningmoneyonline.co.uk
+https://earningmoneyonline.co.uk (HTTP 200 on 2026-10-15)
 
 ## Email
 TBC
@@ -46,7 +46,7 @@ Static HTML
 TBC
 
 ## Data store/backups
-TBC
+only server-wide /etc/cron.d/vps-backup (verify contents); no app-specific backup found
 
 ## Marketing
 TBC

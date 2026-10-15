@@ -14,9 +14,9 @@ spec:
   system: "Content / Media"
 x-passport:
   family: "Content / Media"
-  domains: ["earningmoneyonline.co.uk", "energysavingtrust.org.uk", "ico.org.uk"]
-  live_url: "https://earningmoneyonline.co.uk"
-  hosting: "TBC"
+  domains: ["earningmoneyonline.co.uk"]
+  live_url: "https://earningmoneyonline.co.uk (HTTP 200 on 2026-10-15)"
+  hosting: "uk-vps (72.62.213.196, Hostinger srv1569293) (Traefik + Docker). Compose project `earningmoneyonline`, path `/root/earningmoneyonline (nginx static; synced from /root/emo-uk-repo by /root/deploy-emo.sh every 5 min)`. Containers: see path. Deploy remote: /root/emo-uk-repo \u2192 https://github.com/ruhulamin0001/emo-uk-site.git (OLD owner URL, redirect)"
   apps: "TBC"
   payments: "TBC"
   email: "TBC"
@@ -25,5 +25,10 @@ x-passport:
   ai_agents: ["Claude Code", "GitHub Copilot"]
   progress: "Last push 2026-10-15. Description: earningmoneyonline.co.uk custom HTML site + contentstudio. Managed via Claude Cowork."
   last_updated: "2026-10-15"
+  server: "uk-vps (72.62.213.196, Hostinger srv1569293)"
+  deploy_path: "/root/earningmoneyonline (nginx static; synced from /root/emo-uk-repo by /root/deploy-emo.sh every 5 min)"
+  cert_expiry: "2026-12-16"
+  backups: "only server-wide /etc/cron.d/vps-backup (verify contents); no app-specific backup found"
+  domain_verified: true
   updated_by: "Grok Bot (passport generator)"
-  completeness: 43
+  completeness: 52
