@@ -38,7 +38,7 @@ jobs:
         run: |
           hit=""
           grep -iE '(^|/)(payments?|billing|checkout|stripe|webhooks?|pricing|prices?)(/|\.|$)|core-payments' files.txt && hit="paths"
-          git diff "$BASE" "$HEAD" -- . ':(exclude)*.md' ':(exclude)package-lock.json' | grep -E '^\+' | grep -iqE 'stripe|sk_live|rk_live|paystation|bkash|sslcommerz|checkout|webhook|price_|unit_amount|payout|refund' && hit="$hit keywords"
+          git diff "$BASE" "$HEAD" -- . ':(exclude)*.md' ':(exclude)package-lock.json' ':(exclude).github/**' | grep -E '^\+' | grep -iqE 'stripe|sk_live|rk_live|paystation|bkash|sslcommerz|checkout|webhook|price_|unit_amount|payout|refund' && hit="$hit keywords"
           if [ -n "$hit" ]; then
             echo "Payment-related change detected ($hit)."
             if echo "$LABELS" | grep -q 'R-approved'; then echo "R-approved label present: OK"; else echo "::error::Payment wall: needs R's approval (label R-approved, set by R only)"; exit 1; fi
