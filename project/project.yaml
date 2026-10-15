@@ -28,7 +28,7 @@ x-passport:
   server: "uk-vps (72.62.213.196, Hostinger srv1569293)"
   deploy_path: "/root/earningmoneyonline (nginx static; synced from /root/emo-uk-repo by /root/deploy-emo.sh every 5 min)"
   cert_expiry: "2026-12-16"
-  backups: "No app-specific backup. Server-wide: nightly /root/ops/backup-databases.sh (every DB, keep 7) + backup-vps.sh (configs, keep 7) into /root/backups on the same disk. **NOT off-site** (verified 15 Oct 2026)."
+  backups: "No app-specific backup. Server-wide: nightly /root/ops/backup-databases.sh (every DB, keep 7) + backup-vps.sh (configs, keep 7) into /root/backups on the same disk. Off-site since 15 Oct 2026: nightly 04:30 age-encrypted archive \u2192 bd-vps `/srv/offsite/uk-vps` (14 days, sha256 + restore self-test). Cloudflare R2 second copy pending (bucket not created yet)."
   domain_verified: true
   updated_by: "Grok Bot (passport generator)"
   completeness: 52

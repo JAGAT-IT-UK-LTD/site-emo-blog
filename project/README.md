@@ -46,7 +46,7 @@ Static HTML
 TBC
 
 ## Data store/backups
-No app-specific backup. Server-wide: nightly /root/ops/backup-databases.sh (every DB, keep 7) + backup-vps.sh (configs, keep 7) into /root/backups on the same disk. **NOT off-site** (verified 15 Oct 2026).
+No app-specific backup. Server-wide: nightly /root/ops/backup-databases.sh (every DB, keep 7) + backup-vps.sh (configs, keep 7) into /root/backups on the same disk. Off-site since 15 Oct 2026: nightly 04:30 age-encrypted archive → bd-vps `/srv/offsite/uk-vps` (14 days, sha256 + restore self-test). Cloudflare R2 second copy pending (bucket not created yet).
 
 ## Marketing
 TBC
