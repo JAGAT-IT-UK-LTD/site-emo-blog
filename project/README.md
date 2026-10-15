@@ -46,7 +46,7 @@ Static HTML
 TBC
 
 ## Data store/backups
-only server-wide /etc/cron.d/vps-backup (verify contents); no app-specific backup found
+No app-specific backup. Server-wide: nightly /root/ops/backup-databases.sh (every DB, keep 7) + backup-vps.sh (configs, keep 7) into /root/backups on the same disk. **NOT off-site** (verified 15 Oct 2026).
 
 ## Marketing
 TBC
