@@ -2,6 +2,8 @@
 # Reusable workflow: called from every org repo (.github/workflows/agent-gates.yml caller)
 name: agent-gates
 on:
+  push:
+    branches: [main]
   pull_request:
     types: [opened, edited, synchronize, reopened, labeled, unlabeled]
 jobs:
