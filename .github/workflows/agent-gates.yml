@@ -8,6 +8,7 @@ on:
     types: [opened, edited, synchronize, reopened, labeled, unlabeled]
 jobs:
   gates:
+    if: github.event_name == 'pull_request'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -45,3 +46,21 @@ jobs:
             echo "Payment-related change detected ($hit)."
             if echo "$LABELS" | grep -q 'R-approved'; then echo "R-approved label present: OK"; else echo "::error::Payment wall: needs R's approval (label R-approved, set by R only)"; exit 1; fi
           else echo "No payment-related change."; fi
+  push-trailers:
+    # Warn-only for now: pushes to main should carry Agent: and Task: lines in every commit.
+    if: github.event_name == 'push'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: {fetch-depth: 0}
+      - name: Agent + Task lines on pushed commits (warn-only)
+        env: {BEFORE: "${{ github.event.before }}", AFTER: "${{ github.sha }}"}
+        run: |
+          if [ -z "$BEFORE" ] || [ "$BEFORE" = "0000000000000000000000000000000000000000" ]; then range="$AFTER -1"; else range="$BEFORE..$AFTER"; fi
+          miss=0
+          for c in $(git rev-list --no-merges $range); do
+            msg=$(git log -1 --format=%B $c)
+            if ! echo "$msg" | grep -qiE '^\s*Agent:\s*\S+' || ! echo "$msg" | grep -qiE '^\s*Task:\s*\S+'; then
+              echo "::warning::Commit ${c:0:7} by $(git log -1 --format=%an $c) lacks Agent:/Task: lines"; miss=$((miss+1)); fi
+          done
+          echo "Commits missing lines: $miss (warn-only, not failing)"
