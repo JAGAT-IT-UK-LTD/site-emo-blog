@@ -21,3 +21,8 @@ Studio (QA score >= 25/50) → Ruhul approve → commit to main → Hostinger au
   need an AI receptionist, and writes the outreach. See leadgen/README.md.
   Output lives in leadgen/data/ and is git-ignored; the folder is blocked from
   the web root by leadgen/.htaccess and robots.txt.
+
+## bd-voice-stack/ (separate product, not part of the website)
+Asterisk + AI receptionist stack for aiagent.jagatitlimited.com, deployed with docker compose on the
+Hostinger VPS like the other sites. It has its own README and CLAUDE.md. The folder ships a
+`.htaccess` (Require all denied) so Hostinger never serves it over HTTP.
