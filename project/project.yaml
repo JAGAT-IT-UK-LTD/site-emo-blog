@@ -16,7 +16,7 @@ x-passport:
   family: "Content / Media"
   domains: ["earningmoneyonline.co.uk"]
   live_url: "https://earningmoneyonline.co.uk (HTTP 200 on 2026-10-15)"
-  hosting: "uk-vps (72.62.213.196, Hostinger srv1569293) (Traefik + Docker). Compose project `earningmoneyonline`, path `/root/earningmoneyonline (nginx static; synced from /root/emo-uk-repo by /root/deploy-emo.sh every 5 min)`. Containers: see path. Deploy remote: /root/emo-uk-repo \u2192 https://github.com/ruhulamin0001/emo-uk-site.git (OLD owner URL, redirect)"
+  hosting: "uk-vps (Traefik + Docker). Compose project `earningmoneyonline`, path `/root/earningmoneyonline (nginx static; synced from /root/emo-uk-repo by /root/deploy-emo.sh every 5 min)`. Containers: see path. Deploy remote: /root/emo-uk-repo \u2192 https://github.com/ruhulamin0001/emo-uk-site.git (OLD owner URL, redirect)"
   apps: "TBC"
   payments: "TBC"
   email: "TBC"
@@ -25,7 +25,7 @@ x-passport:
   ai_agents: ["Claude Code", "GitHub Copilot"]
   progress: "Last push 2026-10-15. Description: earningmoneyonline.co.uk custom HTML site + contentstudio. Managed via Claude Cowork."
   last_updated: "2026-10-15"
-  server: "uk-vps (72.62.213.196, Hostinger srv1569293)"
+  server: "uk-vps"
   deploy_path: "/root/earningmoneyonline (nginx static; synced from /root/emo-uk-repo by /root/deploy-emo.sh every 5 min)"
   cert_expiry: "2026-12-16"
   backups: "No app-specific backup. Server-wide: nightly /root/ops/backup-databases.sh (every DB, keep 7) + backup-vps.sh (configs, keep 7) into /root/backups on the same disk. Off-site since 15 Oct 2026: nightly 04:30 age-encrypted archive \u2192 bd-vps `/srv/offsite/uk-vps` (14 days, sha256 + restore self-test). Cloudflare R2 third copy live since 16 Oct 2026 (encrypted, 7 days)."

@@ -4,10 +4,10 @@
 > Auto-filled from repo files only; `TBC` = unknown. **Never put secret values here.** Update after every change.
 
 ## Domain & DNS
-earningmoneyonline.co.uk (VERIFIED: routed by Traefik on uk-vps (72.62.213.196, Hostinger srv1569293) 2026-10-15; TLS cert expires 2026-12-16; registrar TBC)
+earningmoneyonline.co.uk (VERIFIED: routed by Traefik on uk-vps 2026-10-15; TLS cert expires 2026-12-16; registrar TBC)
 
 ## Hosting/VPS & deploy
-uk-vps (72.62.213.196, Hostinger srv1569293) (Traefik + Docker). Compose project `earningmoneyonline`, path `/root/earningmoneyonline (nginx static; synced from /root/emo-uk-repo by /root/deploy-emo.sh every 5 min)`. Containers: see path. Deploy remote: /root/emo-uk-repo → https://github.com/ruhulamin0001/emo-uk-site.git (OLD owner URL, redirect)
+uk-vps (Traefik + Docker). Compose project `earningmoneyonline`, path `/root/earningmoneyonline (nginx static; synced from /root/emo-uk-repo by /root/deploy-emo.sh every 5 min)`. Containers: see path. Deploy remote: /root/emo-uk-repo → https://github.com/ruhulamin0001/emo-uk-site.git (OLD owner URL, redirect)
 
 ## GitHub
 https://github.com/JAGAT-IT-UK-LTD/site-emo-blog (public), default branch main
