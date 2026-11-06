@@ -2,6 +2,7 @@ User-agent: *
 Allow: /
 Disallow: /studio/
 Disallow: /leadgen/
+Disallow: /preview/
 
 # Crawl-friendly: no rate limiting needed, static site
 Sitemap: https://earningmoneyonline.co.uk/sitemap.xml

@@ -6,3 +6,17 @@ leadgen/data/
 # Local scratch
 .DS_Store
 *.log
+
+# Secrets never go into this public repo
+.env*
+!.env.example
+secrets.json
+google-services.json
+GoogleService-Info.plist
+android/key.properties
+android/keystore/
+*.jks
+*.keystore
+
+# Local Claude app files (preview server config)
+.claude/
