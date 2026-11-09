@@ -73,7 +73,7 @@
   function load() {
     if (data) return Promise.resolve(data);
     if (loading) return loading;
-    loading = fetch(root + "assets/search.json", { cache: "force-cache" })
+    loading = fetch(root + "assets/search.json?v=" + (document.documentElement.getAttribute("data-sv") || "1"))
       .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
       .then(function (j) {
         data = j.map(function (a) { a.k = (a.t + " " + a.c + " " + (a.x || "")).toLowerCase(); return a; });

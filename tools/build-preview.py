@@ -4,6 +4,7 @@
 Reads the real article and category files, never edits them. Standard library only.
 Run from the repo root:  python3 -I tools/build-preview.py
 """
+import hashlib
 import html
 import json
 import os
@@ -57,6 +58,12 @@ TRADING = ("EarningMoneyOnline is a trading name of JAGAT IT UK LTD, registered 
            "Hertfordshire, England, AL2 1QF.")
 
 E = html.escape
+
+
+def ver(rel):
+    """Short content hash so Cloudflare never serves an old copy after a change."""
+    with open(os.path.join(OUT, rel), "rb") as f:
+        return hashlib.sha1(f.read()).hexdigest()[:10]
 
 
 def text(fragment):
@@ -131,7 +138,7 @@ def icon(name, size=22):
 
 def head(title, desc, canonical, extra=""):
     return """<!doctype html>
-<html lang="en-GB" data-root="%s">
+<html lang="en-GB" data-root="%s" data-sv="%s">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -141,14 +148,14 @@ def head(title, desc, canonical, extra=""):
 <meta name="description" content="%s">
 <link rel="canonical" href="%s">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-<link rel="stylesheet" href="%sassets/glass.css">
+<link rel="stylesheet" href="%sassets/glass.css?v=%s">
 %s
-<script defer src="%sassets/glass.js"></script>
+<script defer src="%sassets/glass.js?v=%s"></script>
 <script>window.__EMO_PREVIEW=%s;(function(){var t="indigo";try{t=localStorage.getItem("emoTheme")||t}catch(e){}if(t==="indigo")document.documentElement.setAttribute("data-theme","indigo")})();</script>
 %s</head>
 <body>
 <div class="sky" aria-hidden="true"><i class="b1"></i><i class="b2"></i><i class="b3"></i></div>
-""" % (BASE, E(title), E(desc), E(canonical), BASE, GSAP, BASE,
+""" % (BASE, ver("assets/search.json"), E(title), E(desc), E(canonical), BASE, ver("assets/glass.css"), GSAP, BASE, ver("assets/glass.js"),
        json.dumps({s: 1 for s in PREVIEW_ARTICLES}), extra)
 
 
