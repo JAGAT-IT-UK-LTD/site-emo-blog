@@ -6,7 +6,7 @@ The order is in `data/improve-queue.json` (articles whose dates have passed firs
 
 ## Never
 1. Never change a file name, URL or canonical. Never delete an article.
-2. Never remove an affiliate link or change the Amazon tag `earningmoneyonline-21`. Keep every `rel` value.
+2. Never remove an affiliate link or change the Amazon tag `earningmon051-21`. Keep every `rel` value.
 3. Never invent a figure, a quote, a review, a reader or a statistic. Every number needs a linked official or primary source checked in this run.
 4. Never touch `preview/`, `assets/`, `js/`, `tools/`, design files, other repos or the server.
 5. Never write a new article. Improve only the ten in the queue.

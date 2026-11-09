@@ -20,8 +20,9 @@ earningmoneyonline.co.uk, a plain HTML blog about earning money online (456 arti
 - Eight finished articles from 13 Sep 2026 were never published (about 2,050 words each, in emo-data/articles-home-2026-09-13): artificial grass vs lawn, deposit deductions fair wear and tear, eco 40 60 programme, heating oil price volatility, leaky toilet on a water meter, surface water drainage rebate, washer dryer vs separate machines, Water Smart rising block tariff. Their figures need a fresh check before publishing.
 
 ## Affiliate state (from the code, 9 Nov 2026)
-- Amazon Associates: tag `earningmoneyonline-21` on all 212 Amazon links in 89 articles, every link marked sponsored. Earnings are not visible from here, the Associates dashboard needs the owner login.
-- Awin: one link only (eukhost), publisher id 3046515.
+- Amazon Associates: the account ID from Amazon's welcome email (27 Jul 2026) is `earningmon051-21`. Until 9 Nov 2026 the site used `earningmoneyonline-21`, which no Amazon email mentions, so those clicks may never have counted. All 212 links in 89 articles now carry `earningmon051-21`.
+- Amazon emailed on 26 Oct 2026 that the account has no three qualified sales yet. Amazon closes an account without three qualified sales within 180 days, so around 23 Jan 2027 (counted from 27 Jul). Earnings are only visible in Associates Central (owner login).
+- Awin: account approved 19 Aug 2026 (publisher 3046515). Only WebHosting UK approved the site (20 Aug). One link (eukhost) on the site, no approval email found for it. No commission emails.
 - Skimlinks: written about in articles, but its script is not on the site, so it earns nothing.
 - GA4 id G-GQ2B6EM9YC loads only after cookie consent.
 
