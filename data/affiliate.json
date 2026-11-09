@@ -1,0 +1,4 @@
+{
+ "skimlinks_id": "",
+ "_note": "Paste the Skimlinks publisher ID from Publisher Hub, Settings, Install (looks like 123456X1234567), then run python3 -I tools/build-preview.py --live. The script loads only after a visitor accepts cookies."
+}

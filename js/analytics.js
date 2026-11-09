@@ -27,6 +27,21 @@ if(document.readyState!=='loading'){ emoUiInit2(); } else { document.addEventLis
     window.gtag("config", GA_ID, { anonymize_ip: true });
   }
 
+  /* Affiliate partners (Skimlinks), only after consent and only when the page names an ID */
+  function skimId() {
+    var id = document.documentElement.getAttribute("data-skim") || "";
+    return /^[0-9]+X[0-9]+$/.test(id) ? id : "";
+  }
+  function loadPartners() {
+    var id = skimId();
+    if (!id || document.getElementById("emo-skim")) return;
+    var s = document.createElement("script");
+    s.id = "emo-skim";
+    s.async = true;
+    s.src = "https://s.skimresources.com/js/" + id + ".skimlinks.js";
+    document.body.appendChild(s);
+  }
+
   function removeBanner() {
     var b = document.getElementById("emo-cc");
     if (b && b.parentNode) b.parentNode.removeChild(b);
@@ -46,7 +61,7 @@ if(document.readyState!=='loading'){ emoUiInit2(); } else { document.addEventLis
       "display:flex;flex-wrap:wrap;align-items:center;gap:12px;justify-content:space-between;";
     bar.innerHTML =
       '<div style="flex:1 1 320px;min-width:240px;">We use cookies to measure how the site is used, ' +
-      'via Google Analytics. Nothing loads until you choose. See our ' +
+      'via Google Analytics' + (skimId() ? ', and to credit the shops our links send you to' : '') + '. Nothing loads until you choose. See our ' +
       '<a href="/privacy-policy.html" style="color:#e9c46a;text-decoration:underline;">privacy policy</a>.</div>' +
       '<div style="display:flex;gap:8px;flex:0 0 auto;">' +
       '<button id="emo-cc-no" style="cursor:pointer;border:1px solid #6d8a80;background:transparent;color:#eaf3ef;' +
@@ -56,7 +71,7 @@ if(document.readyState!=='loading'){ emoUiInit2(); } else { document.addEventLis
       '</div>';
     document.body.appendChild(bar);
     document.getElementById("emo-cc-yes").addEventListener("click", function () {
-      set("granted"); removeBanner(); loadGA();
+      set("granted"); removeBanner(); loadGA(); loadPartners();
     });
     document.getElementById("emo-cc-no").addEventListener("click", function () {
       set("denied"); removeBanner();
@@ -65,7 +80,7 @@ if(document.readyState!=='loading'){ emoUiInit2(); } else { document.addEventLis
 
   function init() {
     var c = get();
-    if (c === "granted") { loadGA(); return; }
+    if (c === "granted") { loadGA(); loadPartners(); return; }
     if (c === "denied") { return; }
     showBanner();
   }
