@@ -28,6 +28,12 @@ earningmoneyonline.co.uk, a plain HTML blog about earning money online (456 arti
 ## Cloudflare cache
 Cloudflare caches CSS and JS for 4 hours. The preview asset URLs carry a content hash (`?v=`) for that reason. The live `css/style.css` has no hash, so a change to it can take up to 4 hours to show.
 
+## Nightly improvement (from 9 Nov 2026)
+- R asked: every night at 11 pm improve 10 existing articles (SEO, keywords, gripping and easy to read). No new articles.
+- Scheduled task `emo-nightly-improve` on this Mac (Claude app must be open; if it is closed at 11 pm the run starts when it opens).
+- Order: `data/improve-queue.json`, rules: `docs/IMPROVE-RULES.md`, log: `docs/IMPROVE-LOG.md`, helper: `tools/improve.py` (queue, next, check, done, status).
+- 456 articles, 10 a night, about 46 nights. Articles whose dates have passed go first (36 of them).
+
 ## How pages are built now
 - `python3 -I tools/build-preview.py --live` rebuilds homepage, 8 categories, every article and the static pages (about, contact, privacy, terms, disclosure). Page text is never touched, each page keeps its own title, description, canonical and social tags.
 - Safe to rerun: a new design page is read back through `<!--emo:...-->` markers, an old template page is read the old way. So a new article written in the old template is converted on the next run. Category pages and the search index come from the article files, never edit them by hand.
@@ -55,7 +61,7 @@ The Claude session that owns this repo is named "EarningMoneyOnline (site-emo-bl
 
 ## Next steps
 1. Design is live on every page (9 Nov). Next design step only if R asks.
-2. Restart article writing on this Mac or as a cloud routine (needs R yes), fact check and publish the 8 waiting articles, update the articles whose dates have passed.
+2. Nightly improvement runs 10 articles a night. New article writing is paused on R's word (9 Nov). The 8 waiting September articles stay unpublished until R asks.
 3. Decide whether this site stays on the 5 minute git sync or moves to the image pipeline like the other sites.
 4. Two old open PRs (3 and 4, from 3 Sep 2026) are for other projects (DriverJagat, a voice stack) and do not belong in this repo.
 5. `www` should 301 to the bare name.
