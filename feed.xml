@@ -6,7 +6,7 @@
   <atom:link href="https://earningmoneyonline.co.uk/feed.xml" rel="self" type="application/rss+xml" />
   <description>Practical UK money guides with real figures, honest maths and named sources. Make money, save money, side hustles, careers and buying decisions.</description>
   <language>en-gb</language>
-  <lastBuildDate>Mon, 09 Nov 2026 22:36:49 GMT</lastBuildDate>
+  <lastBuildDate>Mon, 09 Nov 2026 22:42:44 GMT</lastBuildDate>
   <ttl>1440</ttl>
   <item>
     <title>The water tariff that is cheaper until it suddenly is not, and where the line sits</title>
@@ -31,6 +31,14 @@
     <pubDate>Mon, 09 Nov 2026 07:00:00 +0000</pubDate>
     <category>Save Money</category>
     <description>If all your rainwater goes to a soakaway, the surface water drainage charge can go, up to £73.44 a year, backdated six years. What it is worth, and the trap.</description>
+  </item>
+  <item>
+    <title>Self Assessment payment on 31 January 2027: how much will you pay, and can you cut it?</title>
+    <link>https://earningmoneyonline.co.uk/articles/self-assessment-31-january-2027-payment-on-account-uk.html</link>
+    <guid isPermaLink="true">https://earningmoneyonline.co.uk/articles/self-assessment-31-january-2027-payment-on-account-uk.html</guid>
+    <pubDate>Mon, 09 Nov 2026 07:00:00 +0000</pubDate>
+    <category>UK Update</category>
+    <description>Your 31 January 2027 Self Assessment payment can be your tax bill plus a first payment on account. Here is the sum, the 8.00% interest rate and how to cut it.</description>
   </item>
   <item>
     <title>The most expensive thing in your house is probably a toilet you cannot hear</title>
@@ -239,14 +247,6 @@
     <pubDate>Sat, 19 Sep 2026 07:00:00 +0000</pubDate>
     <category>Work &amp; Career</category>
     <description>HMRC approves 55p a mile for the first 10,000 business miles in 2026/27. If your employer pays less you can claim relief on the shortfall, and backdate it four years. Full value table.</description>
-  </item>
-  <item>
-    <title>You Get Reported To HMRC At 30 Template Sales. You Do Not Owe Tax Until Sale 67</title>
-    <link>https://earningmoneyonline.co.uk/articles/notion-templates-side-income-uk.html</link>
-    <guid isPermaLink="true">https://earningmoneyonline.co.uk/articles/notion-templates-side-income-uk.html</guid>
-    <pubDate>Sat, 19 Sep 2026 07:00:00 +0000</pubDate>
-    <category>AI Tools</category>
-    <description>A £15 Notion template on Gumroad costs you 10% plus 50 cents. HMRC hears about you at 30 sales, but you do not owe anything until £1,000 of gross income. Why those are two different numbers, and which platform decides whether you have a VAT problem.</description>
   </item>
 </channel>
 </rss>
