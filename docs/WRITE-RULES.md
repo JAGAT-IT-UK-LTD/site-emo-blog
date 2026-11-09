@@ -49,7 +49,7 @@ House template, the same as every article on the site (look at two recent articl
 6. `git status` shows only: the new article, pages the build rewrote, `sitemap.xml`, `feed.xml`, `assets/search.json`, `docs/WRITE-LOG.md`. Nothing else.
 
 ## 5. Log, commit, PR
-1. Append one line to `docs/WRITE-LOG.md`: `<yyyy-mm-dd> | <slug> | <category> | <angle in one line> | <key figures with their source domain> | PR <number>`.
+1. Append one line to `docs/WRITE-LOG.md`: `<yyyy-mm-dd> | <slug> | <category> | <angle in one line> | <key figures with their source domain> | branch claude/article-<slug>`. The PR number is not known yet when you commit, so write the branch name; GitHub links the branch to its PR.
 2. Branch `claude/article-<slug>`, one commit `article: <title>`, push, open a PR to `main` titled `article: <title>`. PR body: what the article answers, the list of figures with source URLs, the check output, and `Agent: Claude cloud routine EMO article writer`.
 3. If `AUTO_MERGE: yes` and every check above passed and the PR's GitHub checks are green: squash merge it. If `main` moved and the PR conflicts: start a fresh branch from `origin/main`, copy the article file across, rerun step 4 and open a new PR, close the old one.
 4. Live is a 5 minute git sync from `main`. Ten minutes after merging, fetch `https://earningmoneyonline.co.uk/articles/<new-slug>.html` and confirm 200. Note the result in the run summary.
