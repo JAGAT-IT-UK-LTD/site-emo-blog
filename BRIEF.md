@@ -9,8 +9,10 @@ earningmoneyonline.co.uk, a plain HTML blog about earning money online (456 arti
 - 9 Nov 2026: R said go on, so every page now uses the new design (navy indigo Liquid Glass, articles as a book page in Literata). /preview/ stays as the test bed (noindex).
 
 ## Content state
-- Newest article is dated 8 Oct 2026. Nothing published since.
-- Some articles look ahead to dates that have now passed (Budget 28 Oct 2026, Bank Rate 5 Nov 2026). They need an update.
+- 9 Nov 2026: the 8 September articles are published (dated 9 Nov 2026, every figure checked again that day). Biggest fix: Severn Trent bills used water on 95% of supply, so the metered rate is £4.0945 a cubic metre, not £4.1758.
+- 9 Nov 2026: six articles whose dates had passed now say what happened: Budget 28 Oct 2026 (Chancellor John Healey; savings and property income tax 24/44/49% from April 2027; trading allowance £3,000; National Living Wage £13.21), Bank Rate 5 Nov 2026 (raised to 4%, vote 8 to 1, next decision 17 Dec), Bank Rate 17 Sep (held at 3.75%), two mortgage pieces, September CPI 3.5% and the April 2027 uprating. They are marked done in `data/improve-queue.json`.
+- `sitemap.xml` was missing 26 older articles as well; `tools/sync-sitemap-feed.py` adds every article and rebuilds `feed.xml` (newest 30). `feed.xml` had not changed since 21 Aug.
+- Older live articles still use £4.1758 for Severn Trent water (water butt, low flow shower head and others). The nightly improvement should correct them to £4.0945.
 - `data/articles.json` is stale (51 entries, 16 Aug 2026). The preview builds its own index from the article files.
 
 ## Why new articles stopped (found 9 Nov 2026)
@@ -54,6 +56,12 @@ Cloudflare caches CSS and JS for 4 hours. The preview asset URLs carry a content
 - Preview has homepage with search, 8 categories, 5 articles. Other cards link to the live article.
 - 9 Nov: colour A navy to indigo is the default, B is the old green, switch in the preview badge. Articles read as a book page in Literata.
 
+## New articles from the cloud (from 9 Nov 2026)
+- Routine `trig_01G9cJwhUBfKYaaWwpkwoM87` (claude.ai/code/routines), Sonnet 5.5, repo JAGAT-IT-UK-LTD/site-emo-blog. The prompt is short; the real rules live in `docs/WRITE-RULES.md`, so change the rules there, not in the routine.
+- Each run: pick a topic (dated UK money change in the next 2 to 8 weeks, or a buyer decision), research primary sources, copy a recent article of the same category, fill the markers, run the generator, `tools/sync-sitemap-feed.py`, `tools/improve.py check`, log, PR, merge.
+- The old Cowork routine "Monthly trending topics" (`trig_01CVoS68gMvgrzDoM2m8hHJ1`) stays off; it was bound to the Windows computer.
+- The routine has the account connectors attached by default (Gmail, Drive and others), but its allowed tools do not include them.
+
 ## How it deploys
 Not the GitHub image pipeline, and nothing is built. Static nginx on uk-vps, box folder `/root/earningmoneyonline`, synced every 5 minutes from a git checkout `/root/emo-uk-repo` (its remote is the old owner URL, which redirects to this repo). Source: `project/project.yaml`. A push to `main` goes live within minutes.
 
@@ -68,7 +76,7 @@ The Claude session that owns this repo is named "EarningMoneyOnline (site-emo-bl
 
 ## Next steps
 1. Design is live on every page (9 Nov). Next design step only if R asks.
-2. Nightly improvement runs 10 articles a night. New article writing is paused on R's word (9 Nov). The 8 waiting September articles stay unpublished until R asks.
+2. Nightly improvement runs 10 articles a night (Mac). New articles: cloud routine "EMO article writer (Mon Wed Fri)" `trig_01G9cJwhUBfKYaaWwpkwoM87`, 07:00 UK time, one article per run, rules `docs/WRITE-RULES.md`, log `docs/WRITE-LOG.md`. It opens a PR and merges it itself when every check is green (switch `AUTO_MERGE` in the rules). It runs in the cloud, so it does not need any computer on.
 3. Decide whether this site stays on the 5 minute git sync or moves to the image pipeline like the other sites.
 4. Two old open PRs (3 and 4, from 3 Sep 2026) are for other projects (DriverJagat, a voice stack) and do not belong in this repo.
 5. `www` should 301 to the bare name.
@@ -80,4 +88,4 @@ The Claude session that owns this repo is named "EarningMoneyOnline (site-emo-bl
 ## Rules
 Read `CLAUDE.md`, `AI.md` and `README.md` first. Rules source is JAGAT-IT-UK-LTD/ai-memory `CHARTER.md`.
 
-Last updated: 9 Nov 2026, Claude Opus 5.5.
+Last updated: 9 Nov 2026 late, Claude Opus 5.5 (article restart session).
