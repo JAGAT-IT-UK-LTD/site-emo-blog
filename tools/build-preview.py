@@ -253,6 +253,19 @@ def ld_json(meta, p=None, rel=""):
                    for b in blocks)
 
 
+def icons():
+    """Favicon links for every browser, each with a content hash."""
+    def h(name):
+        with open(os.path.join(ROOT, name), "rb") as f:
+            return hashlib.sha1(f.read()).hexdigest()[:10]
+    return ('<link rel="icon" href="/favicon.ico?v=%s" sizes="any">\n'
+            '<link rel="icon" href="/favicon.svg?v=%s" type="image/svg+xml">\n'
+            '<link rel="icon" href="/favicon-32x32.png?v=%s" type="image/png" sizes="32x32">\n'
+            '<link rel="apple-touch-icon" href="/apple-touch-icon.png?v=%s">\n'
+            '<link rel="manifest" href="/site.webmanifest">\n'
+            % (h("favicon.ico"), h("favicon.svg"), h("favicon-32x32.png"), h("apple-touch-icon.png")))
+
+
 def head(meta, extra=""):
     if LIVE:
         theme = ' data-theme="indigo"'
@@ -273,14 +286,13 @@ def head(meta, extra=""):
 <meta name="viewport" content="width=device-width, initial-scale=1">
 %s<meta name="theme-color" content="#0b1440">
 %s
-<link rel="icon" href="/favicon.svg" type="image/svg+xml">
-<link rel="stylesheet" href="%sassets/%s?v=%s">
+%s<link rel="stylesheet" href="%sassets/%s?v=%s">
 %s%s
 <script defer src="%sassets/%s?v=%s"></script>
 %s</head>
 <body>
 <div class="sky" aria-hidden="true"><i class="b1"></i><i class="b2"></i><i class="b3"></i></div>
-""" % (BASE, ver("search.json"), theme, top, wrap("meta", "\n" + meta + "\n"), BASE, CSS_NAME, ver(CSS_NAME),
+""" % (BASE, ver("search.json"), theme, top, wrap("meta", "\n" + meta + "\n"), icons(), BASE, CSS_NAME, ver(CSS_NAME),
        extra, GSAP, BASE, JS_NAME, ver(JS_NAME), tail)
 
 
