@@ -26,6 +26,12 @@ earningmoneyonline.co.uk, a plain HTML blog about earning money online (456 arti
 - Skimlinks: written about in articles, but its script is not on the site, so it earns nothing.
 - GA4 id G-GQ2B6EM9YC loads only after cookie consent.
 
+## Affiliate next steps
+See `docs/AFFILIATE-SETUP.md`: Awin shortlist of 12 checked programmes, profile text, and the Skimlinks steps. The site loads Skimlinks only after cookie consent once `data/affiliate.json` has an ID.
+
+## Traffic, 9 Nov 2026
+Search Console 28 days: 29 clicks, 7.44K impressions, average position 51.4, 325 indexed, 153 not indexed (110 discovered, 39 crawled, 2 not found). GA4 12 Oct to 8 Nov: 357 sessions, Bing 170, Yahoo UK 103, DuckDuckGo 43, Google 12.
+
 ## Cloudflare cache
 Cloudflare caches CSS and JS for 4 hours. The preview asset URLs carry a content hash (`?v=`) for that reason. The live `css/style.css` has no hash, so a change to it can take up to 4 hours to show.
 

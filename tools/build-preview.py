@@ -269,6 +269,12 @@ def icons():
 def head(meta, extra=""):
     if LIVE:
         theme = ' data-theme="indigo"'
+        try:
+            skim = json.load(open(os.path.join(ROOT, "data", "affiliate.json"), encoding="utf-8")).get("skimlinks_id", "")
+        except (OSError, ValueError):
+            skim = ""
+        if re.match(r"^[0-9]+X[0-9]+$", skim or ""):
+            theme += ' data-skim="%s"' % skim
         top = ""
         with open(os.path.join(ROOT, "js", "analytics.js"), "rb") as f:
             av = hashlib.sha1(f.read()).hexdigest()[:10]
