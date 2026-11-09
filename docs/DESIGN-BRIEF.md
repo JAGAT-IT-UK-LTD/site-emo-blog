@@ -53,3 +53,9 @@ Homepage এ লেখা প্রায় ৮০ শতাংশ কম। �
 https://earningmoneyonline.co.uk/preview/
 
 সেখান থেকে ৮টা category আর ৫টা article এর preview খোলা যায়। Preview noindex, robots এ বন্ধ, live design এ কোনো বদল নেই।
+
+## 11. বদল, 9 Nov 2026, R এর কথায়
+1. রঙ: default এখন A, navy থেকে indigo (R 8 Nov এ PCNAppeal এর জন্য এটা বেছেছিলেন)। B হলো আগের সবুজ। Preview এর নিচের badge এ A আর B বোতাম, R দুইটাই দেখে বাছবেন।
+2. Article এর লেখা বইয়ের পাতার মত: গাঢ় পটভূমির উপর হালকা কাগজের পাতা, পড়ার serif font Literata, phone এ 19px আর desktop এ 20px, লাইনের মাঝে 1.8 ফাঁকা, এক লাইনে প্রায় 66 অক্ষর, শুরুর অক্ষর বড়, প্রতিটা heading এর উপরে ছোট সোনালি দাগ।
+3. এক typeface নিয়মের একমাত্র ব্যতিক্রম: article এর মূল লেখা serif, বাকি সব system sans। কারণ R লম্বা লেখা বইয়ের মত সহজে পড়তে চান।
+4. Button চাপলে নিচে বসে যায়, heading আরও ভারী।

@@ -116,7 +116,7 @@ def art_href(slug):
 
 # ---------------------------------------------------------------- shell
 LOGO = ('<svg width="30" height="30" viewBox="0 0 32 32" aria-hidden="true"><defs>'
-        '<linearGradient id="lg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5df2bf"/>'
+        '<linearGradient id="lg" x1="0" y1="0" x2="1" y2="1"><stop class="lg1" offset="0"/>'
         '<stop offset="1" stop-color="#f0bd3a"/></linearGradient></defs>'
         '<circle cx="16" cy="16" r="14.5" fill="url(#lg)" stroke="rgba(255,255,255,.7)"/>'
         '<circle cx="16" cy="16" r="11" fill="none" stroke="rgba(5,7,13,.25)" stroke-dasharray="2 2.4"/>'
@@ -136,7 +136,7 @@ def head(title, desc, canonical, extra=""):
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex,nofollow">
-<meta name="theme-color" content="#05070d">
+<meta name="theme-color" content="#0b1440">
 <title>%s</title>
 <meta name="description" content="%s">
 <link rel="canonical" href="%s">
@@ -144,7 +144,7 @@ def head(title, desc, canonical, extra=""):
 <link rel="stylesheet" href="%sassets/glass.css">
 %s
 <script defer src="%sassets/glass.js"></script>
-<script>window.__EMO_PREVIEW=%s;</script>
+<script>window.__EMO_PREVIEW=%s;(function(){var t="indigo";try{t=localStorage.getItem("emoTheme")||t}catch(e){}if(t==="indigo")document.documentElement.setAttribute("data-theme","indigo")})();</script>
 %s</head>
 <body>
 <div class="sky" aria-hidden="true"><i class="b1"></i><i class="b2"></i><i class="b3"></i></div>
@@ -169,7 +169,7 @@ def footer():
 <p>%s</p>
 <p>General guidance, not financial advice. &copy; %d</p>
 </div></footer>
-<div class="pv" role="note"><b>Preview</b> new design &middot; <a href="/">live site</a></div>
+<div class="pv" role="note"><b>Preview</b> &middot; <a href="/">live site</a> &middot; colour<button type="button" data-t="indigo" aria-pressed="false">A</button><button type="button" data-t="green" aria-pressed="false">B</button></div>
 </body>
 </html>
 """ % (E(TRADING), date.today().year)
@@ -196,8 +196,8 @@ def homepage(idx):
     stage = """<div class="stage" aria-hidden="false">
 <svg viewBox="0 0 420 260" role="img" aria-label="A coin above a rising savings line">
 <defs>
-<linearGradient id="emoLine" x1="0" x2="1"><stop offset="0" stop-color="#19c48f"/><stop offset="1" stop-color="#f0bd3a"/></linearGradient>
-<linearGradient id="emoArea" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="rgba(25,196,143,.35)"/><stop offset="1" stop-color="rgba(25,196,143,0)"/></linearGradient>
+<linearGradient id="emoLine" x1="0" x2="1"><stop class="s1" offset="0"/><stop class="s2" offset="1"/></linearGradient>
+<linearGradient id="emoArea" x1="0" y1="0" x2="0" y2="1"><stop class="a1" offset="0"/><stop class="a2" offset="1"/></linearGradient>
 <radialGradient id="emoCoin" cx=".35" cy=".3" r=".8"><stop offset="0" stop-color="#fff1b8"/><stop offset=".45" stop-color="#f0bd3a"/><stop offset="1" stop-color="#b8860b"/></radialGradient>
 </defs>
 <path class="ax" d="M20 240H400M20 180H400M20 120H400M20 60H400"/>
@@ -334,8 +334,11 @@ def article(slug):
 </main>
 """ % (header(cslug), crumb, ('<span class="pill">%s</span>' % E(tag)) if tag else "", h1, by,
        ('<p class="standfirst">%s</p>' % standfirst) if standfirst else "", inner)
+    font = ('<link rel="preconnect" href="https://fonts.googleapis.com">\n'
+            '<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>\n'
+            '<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,700;1,7..72,400&display=swap">\n')
     write("articles/" + slug, head(title, html.unescape(desc),
-                                   "https://earningmoneyonline.co.uk/articles/" + slug) + body + footer())
+                                   "https://earningmoneyonline.co.uk/articles/" + slug, font) + body + footer())
 
 
 def main():

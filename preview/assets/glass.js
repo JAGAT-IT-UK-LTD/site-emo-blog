@@ -13,6 +13,21 @@
     el.style.setProperty("--y", (e.clientY - r.top) + "px");
   }, { passive: true });
 
+  /* colour A (navy indigo) or B (green), preview only */
+  function mark() {
+    var cur = document.documentElement.getAttribute("data-theme") === "indigo" ? "indigo" : "green";
+    document.querySelectorAll(".pv button[data-t]").forEach(function (b) { b.setAttribute("aria-pressed", b.getAttribute("data-t") === cur ? "true" : "false"); });
+  }
+  document.addEventListener("click", function (e) {
+    var b = e.target.closest && e.target.closest(".pv button[data-t]");
+    if (!b) return;
+    var t = b.getAttribute("data-t");
+    if (t === "indigo") document.documentElement.setAttribute("data-theme", "indigo"); else document.documentElement.removeAttribute("data-theme");
+    try { localStorage.setItem("emoTheme", t); } catch (err) {}
+    mark();
+  });
+  if (document.readyState !== "loading") mark(); else document.addEventListener("DOMContentLoaded", mark);
+
   /* motion, only when gsap arrived and the visitor allows motion */
   function motion() {
     var g = window.gsap;
