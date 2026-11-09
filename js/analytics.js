@@ -1,7 +1,7 @@
 /* EMO_UI v2 : favicon injection + right-hand table of contents */
 function emoUiIcon(){ if(document.querySelector('link[rel="icon"]')){ return; } var l=document.createElement('link'); l.setAttribute('rel','icon'); l.setAttribute('type','image/svg+xml'); l.setAttribute('href','/favicon.svg'); document.head.appendChild(l); }
 function emoUiToc(){ var ab=document.querySelector('.article-body'); if(!ab){ return; } var toc=ab.querySelector('.toc'); if(!toc){ return; } if(toc.parentNode!==ab){ var sv=null; for(var i=0;i<ab.children.length;i++){ if(String(ab.children[i].className||'').indexOf('short-version')>-1){ sv=ab.children[i]; } } if(sv&&sv.nextSibling){ ab.insertBefore(toc,sv.nextSibling); } else { ab.insertBefore(toc,ab.firstChild); } } if(toc.className.indexOf('side-toc')<0){ toc.className=toc.className+' side-toc'; } if(String(ab.className).indexOf('has-side-toc')<0){ ab.className=ab.className+' has-side-toc'; } }
-function emoUiInit2(){ try{ emoUiIcon(); emoUiToc(); }catch(e){ if(window.console){ console.warn('emo-ui2', e.message); } } }
+function emoUiInit2(){ if(document.documentElement.hasAttribute('data-root')){ return; } try{ emoUiIcon(); emoUiToc(); }catch(e){ if(window.console){ console.warn('emo-ui2', e.message); } } }
 if(document.readyState!=='loading'){ emoUiInit2(); } else { document.addEventListener('DOMContentLoaded', emoUiInit2); }
 /* EarningMoneyOnline.co.uk — cookie consent + Google Analytics 4
    GDPR / UK PECR compliant: GA loads ONLY after the visitor clicks Accept.
@@ -85,6 +85,7 @@ if(document.readyState!=='loading'){ emoUiInit2(); } else { document.addEventLis
   function ready(fn){ if(document.readyState!=='loading'){fn();} else {document.addEventListener('DOMContentLoaded',fn);} }
   ready(function(){
     if(location.pathname.indexOf('/articles/')===-1) return;
+    if(document.documentElement.hasAttribute('data-root')) return; /* new design pages carry their own share, toc and author box */
     var body = document.querySelector('.article-body');
     if(!body) return;
     if(body.querySelector('.toc') || body.querySelector('.share')) return; /* already v2 */
@@ -425,6 +426,7 @@ if(document.readyState!=='loading'){ emoUiInit2(); } else { document.addEventLis
     }catch(e){}
   }
   function run(){
+    if(document.documentElement.hasAttribute('data-root')) return; /* new design pages have their own nav, crumbs and footer */
     addExtraNav(); addContact();
     setTimeout(function(){ addExtraNav(); addCrumbs(); addContact(); }, 300);
   }
@@ -438,5 +440,5 @@ if(document.readyState!=='loading'){ emoUiInit2(); } else { document.addEventLis
 function emoUiMk(t,c){ var e=document.createElement(t); if(c){ e.className=c; } return e; }
 function emoUiHero(){ var hero=document.querySelector('.hero'); if(!hero){ return; } var wrap=hero.querySelector('.wrap'); if(!wrap){ return; } if(wrap.querySelector('.hero-slide')){ return; } var h1=wrap.querySelector('h1'); var size=h1?window.getComputedStyle(h1).fontSize:'2.2rem'; var s1=emoUiMk('div','hero-slide is-on'); while(wrap.firstChild){ s1.appendChild(wrap.firstChild); } wrap.appendChild(s1); var s2=emoUiMk('div','hero-slide'); s2.innerHTML='<h2 class="hero-h">UK rule changes, <em>explained in plain English</em>.</h2><p>New visa, tax and benefit rules land every month. We read the actual documents and tell you what changed, who it affects, and what to do next.</p><div class="btns"><a class="btn-gold" href="/categories/uk-update.html">Read UK Immigration Update</a><a class="btn-line" href="/categories/save-money.html">Save money guides</a></div>'; var hh=s2.querySelector('.hero-h'); if(hh){ hh.style.fontSize=size; } wrap.appendChild(s2); var slides=[s1,s2]; var idx=0; var timer=null; var dots=emoUiMk('div','hero-dots'); var reduce=window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches; var go=function(n){ idx=n; for(var k=0;k<slides.length;k++){ slides[k].className='hero-slide'+(k===n?' is-on':''); dots.children[k].setAttribute('aria-selected',k===n?'true':'false'); } }; var stop=function(){ if(timer){ clearInterval(timer); timer=null; } }; var start=function(){ stop(); if(!reduce){ timer=setInterval(function(){ go((idx+1)%slides.length); },6500); } }; for(var j=0;j<slides.length;j++){ (function(n){ var b=document.createElement('button'); b.type='button'; b.setAttribute('aria-label','Slide '+(n+1)); b.setAttribute('aria-selected',n===0?'true':'false'); b.addEventListener('click',function(){ go(n); start(); }); dots.appendChild(b); })(j); } wrap.appendChild(dots); start(); hero.addEventListener('mouseenter',stop); hero.addEventListener('mouseleave',start); }
 function emoUiTrim(){ var p=location.pathname; if(p!=='/'&&p.indexOf('index.html')<0){ return; } var grids=document.querySelectorAll('.cards'); for(var i=0;i<grids.length;i++){ (function(g){ var n=g.querySelectorAll('.card').length; if(n<5){ return; } g.className=g.className+' cards--trim'; var host=g.parentNode; if(!host){ return; } var row=emoUiMk('div','see-all-row'); var btn=document.createElement('button'); btn.type='button'; var shut='Show all '+n+' guides'; btn.textContent=shut; btn.addEventListener('click',function(){ if(g.className.indexOf('is-open')<0){ g.className=g.className+' is-open'; btn.textContent='Show fewer'; } else { g.className=g.className.replace(' is-open',''); btn.textContent=shut; } }); row.appendChild(btn); if(g.nextSibling){ host.insertBefore(row,g.nextSibling); } else { host.appendChild(row); } })(grids[i]); } }
-function emoUiInit(){ try{ emoUiHero(); emoUiTrim(); }catch(e){ if(window.console){ console.warn('emo-ui', e.message); } } }
+function emoUiInit(){ if(document.documentElement.hasAttribute('data-root')){ return; } try{ emoUiHero(); emoUiTrim(); }catch(e){ if(window.console){ console.warn('emo-ui', e.message); } } }
 if(document.readyState!=='loading'){ emoUiInit(); } else { document.addEventListener('DOMContentLoaded', emoUiInit); }
