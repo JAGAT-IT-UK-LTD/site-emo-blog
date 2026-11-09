@@ -23,8 +23,8 @@ x-passport:
   database: "TBC"
   env_names: []
   ai_agents: ["Claude Code", "GitHub Copilot", "Claude Opus 5.5"]
-  progress: "2026-11-06 Claude Opus 5.5: six docs in docs/, Liquid Glass design preview at /preview/ (noindex), built by tools/build-preview.py. Live design unchanged, waiting for R."
-  last_updated: "2026-11-06"
+  progress: "2026-11-06 Claude Opus 5.5: six docs in docs/, Liquid Glass design preview at /preview/ (noindex), built by tools/build-preview.py. 9 Nov: navy indigo colour (A) with green (B) switch, articles as a book page in Literata. Live design unchanged, waiting for R."
+  last_updated: "2026-11-09"
   server: "uk-vps"
   deploy_path: "/root/earningmoneyonline (nginx static; synced from /root/emo-uk-repo by /root/deploy-emo.sh every 5 min)"
   cert_expiry: "2026-12-16"

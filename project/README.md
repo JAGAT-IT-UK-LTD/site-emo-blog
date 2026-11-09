@@ -58,7 +58,7 @@ TBC
 Claude Code, GitHub Copilot; last push 2026-10-15
 
 ## Progress
-2026-11-06, Claude Opus 5.5: six docs in `docs/`, Liquid Glass design preview at https://earningmoneyonline.co.uk/preview/ (noindex), built by `tools/build-preview.py`. Live design unchanged until R approves.
+2026-11-06, Claude Opus 5.5: six docs in `docs/`, Liquid Glass design preview at https://earningmoneyonline.co.uk/preview/ (noindex), built by `tools/build-preview.py`. 9 Nov: navy indigo colour (A) with green (B) switch, articles as a book page in Literata. Live design unchanged until R approves.
 
 ## Competitors
 TBC
