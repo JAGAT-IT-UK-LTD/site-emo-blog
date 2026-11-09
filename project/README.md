@@ -60,6 +60,8 @@ Claude Code, GitHub Copilot; last push 2026-10-15
 ## Progress
 2026-11-06, Claude Opus 5.5: six docs in `docs/`, Liquid Glass design preview at https://earningmoneyonline.co.uk/preview/ (noindex), built by `tools/build-preview.py`. 9 Nov: new design live on every page (navy indigo, articles as a book page in Literata), built by tools/build-preview.py --live.
 
+2026-11-09 late, Claude Opus 5.5: 8 September articles fact checked and published, 6 dated articles updated with the real outcome (Budget 28 Oct, Bank Rate 5 Nov and 17 Sep, mortgages, September CPI). New `tools/sync-sitemap-feed.py` keeps sitemap and feed complete. New article writing restarted from the cloud: routine `trig_01G9cJwhUBfKYaaWwpkwoM87`, Mon, Wed and Fri 07:00, rules in `docs/WRITE-RULES.md`, log in `docs/WRITE-LOG.md`.
+
 ## Competitors
 TBC
 
