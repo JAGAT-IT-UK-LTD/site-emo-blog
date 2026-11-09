@@ -163,8 +163,11 @@ def check(slugs):
         src_old = len(re.findall(r'href="https?://(?!earningmoneyonline)', b_old))
         if old and src_new < src_old:
             problems.append("outside source links dropped from %d to %d" % (src_old, src_new))
-        if old and "tag=earningmoneyonline-21" in b_old and b_new.count("tag=earningmoneyonline-21") < b_old.count("tag=earningmoneyonline-21"):
+        amz = r'href="https?://(?:www\.)?amazon\.co\.uk[^"]*"'
+        if old and len(re.findall(amz, b_new)) < len(re.findall(amz, b_old)):
             problems.append("Amazon affiliate links dropped")
+        if re.search(r'href="https?://(?:www\.)?amazon\.co\.uk[^"]*"', b_new) and any("tag=earningmon051-21" not in h for h in re.findall(amz, b_new)):
+            problems.append("an Amazon link without the account tag earningmon051-21")
         dash_new = text(b_new).count("—") + text(b_new).count("–")
         dash_old = text(b_old).count("—") + text(b_old).count("–")
         if dash_new > dash_old:
