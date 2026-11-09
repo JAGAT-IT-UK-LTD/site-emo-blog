@@ -6,7 +6,7 @@ earningmoneyonline.co.uk, a plain HTML blog about earning money online (456 arti
 ## Where it is live
 - https://earningmoneyonline.co.uk, 200 on 6 Nov 2026. `www` also 200 (no redirect to the bare name).
 - No healthz (`/healthz` 404). Live `index.html` was byte for byte the same as `main` on 6 Nov 2026. Live sitemap and repo sitemap both have 410 URLs.
-- New Liquid Glass design preview: https://earningmoneyonline.co.uk/preview/ (noindex, blocked in robots.txt). Live design unchanged until R says yes.
+- 9 Nov 2026: R said go on, so every page now uses the new design (navy indigo Liquid Glass, articles as a book page in Literata). /preview/ stays as the test bed (noindex).
 
 ## Content state
 - Newest article is dated 8 Oct 2026. Nothing published since.
@@ -28,6 +28,13 @@ earningmoneyonline.co.uk, a plain HTML blog about earning money online (456 arti
 ## Cloudflare cache
 Cloudflare caches CSS and JS for 4 hours. The preview asset URLs carry a content hash (`?v=`) for that reason. The live `css/style.css` has no hash, so a change to it can take up to 4 hours to show.
 
+## How pages are built now
+- `python3 -I tools/build-preview.py --live` rebuilds homepage, 8 categories, every article and the static pages (about, contact, privacy, terms, disclosure). Page text is never touched, each page keeps its own title, description, canonical and social tags.
+- Safe to rerun: a new design page is read back through `<!--emo:...-->` markers, an old template page is read the old way. So a new article written in the old template is converted on the next run. Category pages and the search index come from the article files, never edit them by hand.
+- The design source is `preview/assets/glass.css` and `glass.js`; live mode copies them to `/assets/emo.css` and `/assets/emo.js`. Every asset URL, including `/js/analytics.js`, carries a content hash so Cloudflare never serves an old copy.
+- Structured data (Article and BreadcrumbList, or WebSite) is written into each page. `js/analytics.js` still does cookie consent, GA4, Organization and FAQ schema; its old template DOM patches stay quiet on new pages (they check `data-root` on the html tag).
+- Before and after check on 9 Nov: 471 pages, title, description, canonical, og:url, og:image and article word count unchanged; 12,096 links, none broken; all sitemap URLs exist.
+
 ## Design work, 6 Nov 2026
 - Six docs in `docs/` (SPEC is the index). Design brief: `docs/DESIGN-BRIEF.md`, plan: `docs/PLAN.md`.
 - `tools/build-preview.py` rebuilds `/preview/` from the real article and category files. Run `python3 -I tools/build-preview.py` from the repo root after any content change.
@@ -47,14 +54,13 @@ Not measured.
 The Claude session that owns this repo is named "EarningMoneyOnline (site-emo-blog)" in the app.
 
 ## Next steps
-1. R looks at `/preview/` and says yes or what to change. Then roll the design to every page (`docs/PLAN.md` milestone 5).
+1. Design is live on every page (9 Nov). Next design step only if R asks.
 2. Restart article writing on this Mac or as a cloud routine (needs R yes), fact check and publish the 8 waiting articles, update the articles whose dates have passed.
 3. Decide whether this site stays on the 5 minute git sync or moves to the image pipeline like the other sites.
 4. Two old open PRs (3 and 4, from 3 Sep 2026) are for other projects (DriverJagat, a voice stack) and do not belong in this repo.
 5. `www` should 301 to the bare name.
 
 ## Owner clicks
-- Look at https://earningmoneyonline.co.uk/preview/ on the phone and say yes or what to change.
 - Affiliate accounts and their payouts (owner accounts).
 - Yes or no on closing the two stray PRs 3 and 4.
 

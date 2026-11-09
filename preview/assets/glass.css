@@ -271,3 +271,5 @@ h1,h2{font-weight:800}
 /* header stays dark and readable over the paper page */
 .top{background:linear-gradient(180deg,rgba(5,7,13,.86),rgba(5,7,13,.74))}
 html[data-theme=indigo] .top{background:linear-gradient(180deg,rgba(10,15,48,.88),rgba(16,20,66,.78))}
+.ft.live{padding-bottom:44px}
+.ph h1,.ab h2,.card h3{overflow-wrap:break-word}
