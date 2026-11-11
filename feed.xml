@@ -6,8 +6,16 @@
   <atom:link href="https://earningmoneyonline.co.uk/feed.xml" rel="self" type="application/rss+xml" />
   <description>Practical UK money guides with real figures, honest maths and named sources. Make money, save money, side hustles, careers and buying decisions.</description>
   <language>en-gb</language>
-  <lastBuildDate>Mon, 09 Nov 2026 22:42:44 GMT</lastBuildDate>
+  <lastBuildDate>Wed, 11 Nov 2026 07:06:02 GMT</lastBuildDate>
   <ttl>1440</ttl>
+  <item>
+    <title>Christmas 2026 Benefit Payment Dates: Who Is Paid Early</title>
+    <link>https://earningmoneyonline.co.uk/articles/christmas-2026-benefit-payment-dates-uk.html</link>
+    <guid isPermaLink="true">https://earningmoneyonline.co.uk/articles/christmas-2026-benefit-payment-dates-uk.html</guid>
+    <pubDate>Wed, 11 Nov 2026 07:00:00 +0000</pubDate>
+    <category>Save Money</category>
+    <description>Universal Credit due 25 to 28 December is paid on Thursday 24 December, and 1 to 3 January on Thursday 31 December. Check your State Pension day too.</description>
+  </item>
   <item>
     <title>The water tariff that is cheaper until it suddenly is not, and where the line sits</title>
     <link>https://earningmoneyonline.co.uk/articles/water-smart-rising-block-tariff-what-it-means-uk.html</link>
@@ -239,14 +247,6 @@
     <pubDate>Sat, 19 Sep 2026 07:00:00 +0000</pubDate>
     <category>Affiliate Marketing</category>
     <description>Patreon&#x27;s pricing page says 10%, then adds payment processing, currency conversion and payout fees without printing a rate for any of them. What that means for a UK creator, why tier design beats audience size, and the number of members you actually need.</description>
-  </item>
-  <item>
-    <title>Your Employer Pays 25p. HMRC Says 55p. The Difference Is Yours to Claim</title>
-    <link>https://earningmoneyonline.co.uk/articles/p87-work-expenses-claim-uk.html</link>
-    <guid isPermaLink="true">https://earningmoneyonline.co.uk/articles/p87-work-expenses-claim-uk.html</guid>
-    <pubDate>Sat, 19 Sep 2026 07:00:00 +0000</pubDate>
-    <category>Work &amp; Career</category>
-    <description>HMRC approves 55p a mile for the first 10,000 business miles in 2026/27. If your employer pays less you can claim relief on the shortfall, and backdate it four years. Full value table.</description>
   </item>
 </channel>
 </rss>
