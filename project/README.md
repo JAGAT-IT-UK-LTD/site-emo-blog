@@ -65,6 +65,8 @@ Claude Code, GitHub Copilot; last push 2026-10-15
 
 2026-11-11, Claude scheduled task emo-nightly-improve: 10 more articles improved and fact checked (telecoms charter, UC health element, winter fuel, Chrome extensions, site reputation, pensions dashboards, Self Assessment registration, Renters Rights Act, school uniform, working from home relief). Queue: 26 of 456 done.
 
+2026-11-11 night, Claude scheduled task emo-nightly-improve: 10 more dated articles improved and fact checked (NS&I rates, BNPL FCA rules, DWP driving ban, tipping law, mesothelioma dependants, tribunal time limits, ONS labour market, advisory fuel rates, DWP recovery costs, pensions dashboard connection deadline). Queue: 36 of 456 done.
+
 ## Competitors
 TBC
 
