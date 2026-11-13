@@ -6,8 +6,16 @@
   <atom:link href="https://earningmoneyonline.co.uk/feed.xml" rel="self" type="application/rss+xml" />
   <description>Practical UK money guides with real figures, honest maths and named sources. Make money, save money, side hustles, careers and buying decisions.</description>
   <language>en-gb</language>
-  <lastBuildDate>Wed, 11 Nov 2026 07:06:02 GMT</lastBuildDate>
+  <lastBuildDate>Fri, 13 Nov 2026 07:12:58 GMT</lastBuildDate>
   <ttl>1440</ttl>
+  <item>
+    <title>Dividend Tax UK: What You Owe Above The £500 Allowance</title>
+    <link>https://earningmoneyonline.co.uk/articles/dividend-tax-500-allowance-10-75-percent-what-you-owe-uk.html</link>
+    <guid isPermaLink="true">https://earningmoneyonline.co.uk/articles/dividend-tax-500-allowance-10-75-percent-what-you-owe-uk.html</guid>
+    <pubDate>Fri, 13 Nov 2026 07:00:00 +0000</pubDate>
+    <category>Make Money</category>
+    <description>Dividends over the GBP 500 allowance are taxed at 10.75% for basic rate taxpayers in 2026 to 2027. What GBP 5,000 and GBP 10,000 cost, and when to tell HMRC.</description>
+  </item>
   <item>
     <title>Christmas 2026 Benefit Payment Dates: Who Is Paid Early</title>
     <link>https://earningmoneyonline.co.uk/articles/christmas-2026-benefit-payment-dates-uk.html</link>
@@ -217,12 +225,12 @@
     <description>Professional indemnity is not legally required for most UK freelancers. It is claims-made, which changes everything. What it covers, what it does not, and how to price it against your own day rate.</description>
   </item>
   <item>
-    <title>Every pension scheme must connect by 31 October. You still will not be able to use a dashboard</title>
+    <title>The pensions dashboard connection deadline has passed. Here is what happened, and why you still cannot log in</title>
     <link>https://earningmoneyonline.co.uk/articles/pensions-dashboards-31-october-2026-connection-deadline-uk.html</link>
     <guid isPermaLink="true">https://earningmoneyonline.co.uk/articles/pensions-dashboards-31-october-2026-connection-deadline-uk.html</guid>
     <pubDate>Sat, 19 Sep 2026 07:00:00 +0000</pubDate>
     <category>UK Update</category>
-    <description>Every relevant pension scheme must connect to the dashboards ecosystem by 31 October 2026. That is not the date you can use a dashboard. Here is the difference, and why it matters.</description>
+    <description>The pensions dashboard connection deadline of 31 October 2026 has passed. Over 85% of records were linked by June. What it means and when you can log in.</description>
   </item>
   <item>
     <title>A Quarter of Your Pension for an Afternoon of Letters</title>
@@ -239,14 +247,6 @@
     <pubDate>Sat, 19 Sep 2026 07:00:00 +0000</pubDate>
     <category>Make Money</category>
     <description>To give a charity £1 through Payroll Giving you pay 80p at basic rate and 60p at higher rate. Through Gift Aid you pay the full £1 and claim back later. Which leaves the charity better off, which leaves you better off, and why they are not the same answer.</description>
-  </item>
-  <item>
-    <title>Three Members At £10 Beat Ten Members At £3, And It Is Not Close</title>
-    <link>https://earningmoneyonline.co.uk/articles/patreon-membership-income-uk.html</link>
-    <guid isPermaLink="true">https://earningmoneyonline.co.uk/articles/patreon-membership-income-uk.html</guid>
-    <pubDate>Sat, 19 Sep 2026 07:00:00 +0000</pubDate>
-    <category>Affiliate Marketing</category>
-    <description>Patreon&#x27;s pricing page says 10%, then adds payment processing, currency conversion and payout fees without printing a rate for any of them. What that means for a UK creator, why tier design beats audience size, and the number of members you actually need.</description>
   </item>
 </channel>
 </rss>
