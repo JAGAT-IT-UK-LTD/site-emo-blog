@@ -67,6 +67,8 @@ Claude Code, GitHub Copilot; last push 2026-10-15
 
 2026-11-11 night, Claude scheduled task emo-nightly-improve: 10 more dated articles improved and fact checked (NS&I rates, BNPL FCA rules, DWP driving ban, tipping law, mesothelioma dependants, tribunal time limits, ONS labour market, advisory fuel rates, DWP recovery costs, pensions dashboard connection deadline). Queue: 36 of 456 done.
 
+2026-11-14, Claude scheduled task emo-nightly-improve: 10 more articles improved and fact checked (affiliate marketing for beginners, AI Overviews traffic, Amazon commission rates, Amazon earnings, high ticket trap, Amazon Associates rules, budget smartphone, car detailing, cut energy bills, declutter and sell). Queue: 46 of 456 done.
+
 ## Competitors
 TBC
 
