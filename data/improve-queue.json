@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09",
+ "updated": "2026-11-15",
  "per_night": 10,
  "items": [
   {
@@ -371,12 +371,36 @@
    "order": 46
   },
   {
+   "slug": "side-hustle-tax-rules-uk.html",
+   "status": "todo",
+   "done": "",
+   "title": "The £1,000 Allowance Is on Sales, Not Profit. That One Word Catches More People Than Any Other Rule.",
+   "reason": "out of date: trading allowance £3,000 from April 2027",
+   "order": 47
+  },
+  {
+   "slug": "autumn-budget-2026-uk.html",
+   "status": "todo",
+   "done": "",
+   "title": "Budget 2026 Is Wednesday 28 October: What Is Already Decided, and the Five Figures With a Decision Attached",
+   "reason": "out of date: Budget 2026 happened 28 Oct",
+   "order": 48
+  },
+  {
+   "slug": "bank-rate-3-75-percent-what-your-savings-should-do-uk.html",
+   "status": "todo",
+   "done": "",
+   "title": "Your Savings Rate Is Not Waiting for the Bank of England, and Neither Should You Be",
+   "reason": "out of date: Bank Rate 4% since 5 Nov",
+   "order": 49
+  },
+  {
    "slug": "diy-home-savings-uk.html",
    "status": "todo",
    "done": "",
    "title": "DIY Home Jobs That Save Real Money (and Ones to Never Attempt)",
    "reason": "no check date",
-   "order": 47
+   "order": 50
   },
   {
    "slug": "freelance-rates-uk.html",
@@ -384,7 +408,7 @@
    "done": "",
    "title": "How to Set Your Freelance Rate in the UK Without Undercharging",
    "reason": "no check date",
-   "order": 48
+   "order": 51
   },
   {
    "slug": "grow-your-own-save-money-uk.html",
@@ -392,7 +416,7 @@
    "done": "",
    "title": "Grow Your Own in the UK: What Actually Cuts the Food Bill",
    "reason": "no check date",
-   "order": 49
+   "order": 52
   },
   {
    "slug": "home-barista-side-hustle-uk.html",
@@ -400,7 +424,7 @@
    "done": "",
    "title": "Turning Good Coffee Into a Side Hustle in the UK",
    "reason": "no check date",
-   "order": 50
+   "order": 53
   },
   {
    "slug": "password-manager-uk.html",
@@ -408,7 +432,7 @@
    "done": "",
    "title": "Password Managers: The Free One Is Probably Enough",
    "reason": "no check date",
-   "order": 51
+   "order": 54
   },
   {
    "slug": "photography-income-uk.html",
@@ -416,7 +440,7 @@
    "done": "",
    "title": "Making Money From Photography in the UK: The Real Routes",
    "reason": "no check date",
-   "order": 52
+   "order": 55
   },
   {
    "slug": "print-on-demand-uk-profit.html",
@@ -424,7 +448,7 @@
    "done": "",
    "title": "Print on Demand UK: The Real Profit Per T-Shirt",
    "reason": "no check date",
-   "order": 53
+   "order": 56
   },
   {
    "slug": "productivity-for-side-hustlers-uk.html",
@@ -432,7 +456,7 @@
    "done": "",
    "title": "Getting a Side Hustle Done Around a Full Time Job",
    "reason": "no check date",
-   "order": 54
+   "order": 57
   },
   {
    "slug": "remote-jobs-uk-no-degree.html",
@@ -440,7 +464,7 @@
    "done": "",
    "title": "Remote Jobs UK With No Degree: What Is Real and What Pays",
    "reason": "no check date",
-   "order": 55
+   "order": 58
   },
   {
    "slug": "retro-gaming-resell-uk.html",
@@ -448,7 +472,7 @@
    "done": "",
    "title": "Flipping Retro Games in the UK: Where the Real Money Is",
    "reason": "no check date",
-   "order": 56
+   "order": 59
   },
   {
    "slug": "web-hosting-uk-beginners.html",
@@ -456,7 +480,7 @@
    "done": "",
    "title": "Web Hosting in the UK for Beginners: What You Actually Pay",
    "reason": "no check date",
-   "order": 57
+   "order": 60
   },
   {
    "slug": "spot-fake-amazon-reviews-uk.html",
@@ -464,7 +488,7 @@
    "done": "",
    "title": "How to Spot Fake Amazon Reviews Now Every Checking Tool Has Shut Down",
    "reason": "no check date",
-   "order": 58
+   "order": 61
   },
   {
    "slug": "salary-sacrifice-uk.html",
@@ -472,7 +496,7 @@
    "done": "",
    "title": "The Payslip Trick Most UK Employees Never Ask About",
    "reason": "no check date",
-   "order": 59
+   "order": 62
   },
   {
    "slug": "budget-wedding-uk.html",
@@ -480,7 +504,7 @@
    "done": "",
    "title": "Everything Above £56 Is a Choice. Seeing It That Way Changes How You Spend.",
    "reason": "no check date",
-   "order": 60
+   "order": 63
   },
   {
    "slug": "sign-up-bonuses-uk.html",
@@ -488,7 +512,7 @@
    "done": "",
    "title": "Sign-Up Bonuses Are Real Money. The \"£1,000 a Month\" Version Needs Something You Probably Do Not Have.",
    "reason": "no check date",
-   "order": 61
+   "order": 64
   },
   {
    "slug": "amazon-fba-uk-costs.html",
@@ -496,7 +520,7 @@
    "done": "",
    "title": "Amazon FBA UK: Where 30 to 50% of Your Selling Price Actually Goes",
    "reason": "no check date",
-   "order": 62
+   "order": 65
   },
   {
    "slug": "laptop-buying-guide-uk-budget.html",
@@ -504,7 +528,7 @@
    "done": "",
    "title": "The One Check That Decides Whether a Cheap Laptop Is a Bargain or Landfill",
    "reason": "no check date",
-   "order": 63
+   "order": 66
   },
   {
    "slug": "probation-period-uk-what-it-does-and-does-not-mean.html",
@@ -512,7 +536,7 @@
    "done": "",
    "title": "Probation is a word in your contract, not a status in law",
    "reason": "no check date",
-   "order": 64
+   "order": 67
   },
   {
    "slug": "budget-28-october-what-frozen-thresholds-cost-you-by-then-uk.html",
@@ -520,7 +544,7 @@
    "done": "",
    "title": "The personal allowance has not moved since 2022, and now it is frozen to 2031",
    "reason": "no check date",
-   "order": 65
+   "order": 68
   },
   {
    "slug": "making-tax-digital-april-2027-30000-threshold-uk.html",
@@ -528,7 +552,7 @@
    "done": "",
    "title": "970,000 people join Making Tax Digital in April 2027, and most of them do not know yet",
    "reason": "no check date",
-   "order": 66
+   "order": 69
   },
   {
    "slug": "mtd-2028-20000-threshold-who-gets-caught-uk.html",
@@ -536,7 +560,7 @@
    "done": "",
    "title": "The Making Tax Digital threshold drops to £20,000, and the year being measured is this one",
    "reason": "no check date",
-   "order": 67
+   "order": 70
   },
   {
    "slug": "warm-home-discount-150-who-gets-it-automatically-uk.html",
@@ -544,7 +568,7 @@
    "done": "",
    "title": "The £150 Warm Home Discount was already decided, on a date in August nobody announced",
    "reason": "no check date",
-   "order": 68
+   "order": 71
   },
   {
    "slug": "skilled-worker-visa-modern-slavery-rule-uk.html",
@@ -552,7 +576,7 @@
    "done": "",
    "title": "Skilled Worker Visa and Modern Slavery: What the 3 September Rule Change Really Does",
    "reason": "no check date",
-   "order": 69
+   "order": 72
   },
   {
    "slug": "best-ai-tools-uk-small-business.html",
@@ -560,7 +584,7 @@
    "done": "",
    "title": "Best AI Tools for a UK Small Business: What Is Worth Paying For",
    "reason": "checked August 2026",
-   "order": 70
+   "order": 73
   },
   {
    "slug": "budget-travel-uk.html",
@@ -568,7 +592,7 @@
    "done": "",
    "title": "Budget Travel in the UK: How to See More for Less",
    "reason": "checked August 2026",
-   "order": 71
+   "order": 74
   },
   {
    "slug": "crypto-basics-uk.html",
@@ -576,7 +600,7 @@
    "done": "",
    "title": "Crypto for Beginners in the UK: The Rules, the Tax, the Risks",
    "reason": "checked August 2026",
-   "order": 72
+   "order": 75
   },
   {
    "slug": "etsy-fees-uk-sellers.html",
@@ -584,7 +608,7 @@
    "done": "",
    "title": "Etsy Fees for UK Sellers: What You Really Pay Per Sale",
    "reason": "checked August 2026",
-   "order": 73
+   "order": 76
   },
   {
    "slug": "best-cashback-credit-cards-uk.html",
@@ -592,7 +616,7 @@
    "done": "",
    "title": "Cashback Credit Cards UK: The Maths the Adverts Never Show You",
    "reason": "checked August 2026",
-   "order": 74
+   "order": 77
   },
   {
    "slug": "e-bikes-uk-worth-it.html",
@@ -600,7 +624,7 @@
    "done": "",
    "title": "Before You Spend £1,500 on an E-Bike: The Law, the Battery Bill and the Fire Risk",
    "reason": "checked August 2026",
-   "order": 75
+   "order": 78
   },
   {
    "slug": "frozen-tax-thresholds-uk.html",
@@ -608,7 +632,7 @@
    "done": "",
    "title": "Nobody Raised Your Tax Rate. You Are Still Paying More. Here Is Why",
    "reason": "checked August 2026",
-   "order": 76
+   "order": 79
   },
   {
    "slug": "make-money-with-ai-uk.html",
@@ -616,7 +640,7 @@
    "done": "",
    "title": "Your First £1,000 From AI: The Routes That Died and the Ones That Pay £500 a Day",
    "reason": "checked August 2026",
-   "order": 77
+   "order": 80
   },
   {
    "slug": "mattress-buying-guide-uk.html",
@@ -624,7 +648,7 @@
    "done": "",
    "title": "You Will Spend 3,000 Hours a Year on It: How Much Should a Mattress Actually Cost?",
    "reason": "checked August 2026",
-   "order": 78
+   "order": 81
   },
   {
    "slug": "smart-home-worth-it-uk.html",
@@ -632,7 +656,7 @@
    "done": "",
    "title": "Smart Heating: The Adverts Say 30%, UK Homes Get 8 to 15%",
    "reason": "checked August 2026",
-   "order": 79
+   "order": 82
   },
   {
    "slug": "antivirus-uk-do-you-need.html",
@@ -640,7 +664,7 @@
    "done": "",
    "title": "Defender Scores 99.0%. The £60 One Scores 99.97%. What That 0.97% Is Actually Worth",
    "reason": "checked August 2026",
-   "order": 80
+   "order": 83
   },
   {
    "slug": "ask-for-pay-rise-uk.html",
@@ -648,7 +672,7 @@
    "done": "",
    "title": "The Average Pay Rise Was 3.4%. Inflation Took 3.3% of It",
    "reason": "checked August 2026",
-   "order": 81
+   "order": 84
   },
   {
    "slug": "best-budget-headphones-uk.html",
@@ -656,7 +680,7 @@
    "done": "",
    "title": "£59 Now Buys 35 Hours of Battery and Real ANC. What It Still Does Not Buy",
    "reason": "checked August 2026",
-   "order": 82
+   "order": 85
   },
   {
    "slug": "best-free-software-uk-small-business.html",
@@ -664,7 +688,7 @@
    "done": "",
    "title": "MTD for Income Tax Started in April. Only Three Free Tools Actually Cover It",
    "reason": "checked August 2026",
-   "order": 83
+   "order": 86
   },
   {
    "slug": "cover-letter-uk-that-works.html",
@@ -672,7 +696,7 @@
    "done": "",
    "title": "Half of UK Adverts Ask for a Cover Letter. Only a Third of Applicants Send One",
    "reason": "checked August 2026",
-   "order": 84
+   "order": 87
   },
   {
    "slug": "cv-that-gets-interviews-uk.html",
@@ -680,7 +704,7 @@
    "done": "",
    "title": "Your CV Gets Seven Seconds, and Three in Four Never Reach a Human",
    "reason": "checked August 2026",
-   "order": 85
+   "order": 88
   },
   {
    "slug": "dropshipping-uk-truth.html",
@@ -688,7 +712,7 @@
    "done": "",
    "title": "You Sell a £40 Item and Keep Under £4. The Dropshipping Maths Beginners Never See",
    "reason": "checked August 2026",
-   "order": 86
+   "order": 89
   },
   {
    "slug": "job-interview-tips-uk.html",
@@ -696,7 +720,7 @@
    "done": "",
    "title": "Six in Ten Interviewers Decide Within Fifteen Minutes. What Happens in Those Minutes",
    "reason": "checked August 2026",
-   "order": 87
+   "order": 90
   },
   {
    "slug": "linkedin-for-job-hunting-uk.html",
@@ -704,7 +728,7 @@
    "done": "",
    "title": "Recruiters Find Half Their Candidates on LinkedIn. A Complete Profile Raises Your Odds 71%",
    "reason": "checked August 2026",
-   "order": 88
+   "order": 91
   },
   {
    "slug": "no-spend-challenge-uk.html",
@@ -712,7 +736,7 @@
    "done": "",
    "title": "A No Spend Month Will Not Fix Your Finances. Finding the Forgotten £39 a Month Will",
    "reason": "checked August 2026",
-   "order": 89
+   "order": 92
   },
   {
    "slug": "online-tutoring-income-uk.html",
@@ -720,7 +744,7 @@
    "done": "",
    "title": "MyTutor Keeps 40%. On a £40 Lesson You See About £21",
    "reason": "checked August 2026",
-   "order": 90
+   "order": 93
   },
   {
    "slug": "proofreading-side-hustle-uk.html",
@@ -728,7 +752,7 @@
    "done": "",
    "title": "The Professional Rate Is £31.92 an Hour. The Agencies Pay About £12",
    "reason": "checked August 2026",
-   "order": 91
+   "order": 94
   },
   {
    "slug": "rail-fares-2027-uk.html",
@@ -736,7 +760,7 @@
    "done": "",
    "title": "The Rail Fare Freeze Ends in March: What This Week's Inflation Figure Just Did to Your Season Ticket",
    "reason": "checked August 2026",
-   "order": 92
+   "order": 95
   },
   {
    "slug": "slow-cooker-batch-cooking-uk.html",
@@ -744,7 +768,7 @@
    "done": "",
    "title": "A Slow Cooker Costs 5p an Hour. Your Oven Costs Up to £1.30",
    "reason": "checked August 2026",
-   "order": 93
+   "order": 96
   },
   {
    "slug": "switching-careers-uk.html",
@@ -752,7 +776,7 @@
    "done": "",
    "title": "One in Three UK Workers Wants Out. The Ones Who Go Do the Payback Sum First",
    "reason": "checked August 2026",
-   "order": 94
+   "order": 97
   },
   {
    "slug": "transcription-side-hustle-uk.html",
@@ -760,7 +784,7 @@
    "done": "",
    "title": "One Audio Hour Takes Four Hours to Type. That Ratio Decides Whether Transcription Pays",
    "reason": "checked August 2026",
-   "order": 95
+   "order": 98
   },
   {
    "slug": "virtual-assistant-side-hustle-uk.html",
@@ -768,7 +792,7 @@
    "done": "",
    "title": "Employed Assistants Earn £13.54 an Hour. Freelance VAs Charge £25 to £50 for the Same Work",
    "reason": "checked August 2026",
-   "order": 96
+   "order": 99
   },
   {
    "slug": "sole-trader-vs-limited-company-uk.html",
@@ -776,7 +800,7 @@
    "done": "",
    "title": "Everyone Told You to Go Limited at £50,000. For 2026/27, the Sums Say Stay a Sole Trader.",
    "reason": "checked August 2026",
-   "order": 97
+   "order": 100
   },
   {
    "slug": "rent-a-room-lodger-worth-it-uk.html",
@@ -784,7 +808,7 @@
    "done": "",
    "title": "Is Taking In a Lodger Worth It? The £7,500 Promise Has Quietly Stopped Covering an Average Room",
    "reason": "checked August 2026",
-   "order": 98
+   "order": 101
   },
   {
    "slug": "amazon-associates-vs-awin-uk.html",
@@ -792,7 +816,7 @@
    "done": "",
    "title": "Awin Wants £5 Before You Earn Anything: Which Affiliate Network Actually Pays a Small UK Site",
    "reason": "checked August 2026",
-   "order": 99
+   "order": 102
   },
   {
    "slug": "apprenticeships-uk-earn-while-learn.html",
@@ -800,7 +824,7 @@
    "done": "",
    "title": "£8 an Hour and No Student Debt: The Apprenticeship Trade-Off, With the Numbers",
    "reason": "checked August 2026",
-   "order": 100
+   "order": 103
   },
   {
    "slug": "coffee-at-home-savings-uk.html",
@@ -808,7 +832,7 @@
    "done": "",
    "title": "£4 Never Feels Like a Decision. It Feels Like Nothing, Roughly 240 Times a Year.",
    "reason": "checked August 2026",
-   "order": 101
+   "order": 104
   },
   {
    "slug": "passive-income-uk-truth.html",
@@ -816,7 +840,7 @@
    "done": "",
    "title": "Passive Income Always Costs You Either Money or Work. There Is No Third Option.",
    "reason": "checked August 2026",
-   "order": 102
+   "order": 105
   },
   {
    "slug": "sell-garden-produce-uk.html",
@@ -824,15 +848,7 @@
    "done": "",
    "title": "The Moment You Cook It, You Stop Selling a Carrot and Start Running a Food Business",
    "reason": "checked August 2026",
-   "order": 103
-  },
-  {
-   "slug": "side-hustle-tax-rules-uk.html",
-   "status": "todo",
-   "done": "",
-   "title": "The £1,000 Allowance Is on Sales, Not Profit. That One Word Catches More People Than Any Other Rule.",
-   "reason": "checked August 2026",
-   "order": 104
+   "order": 106
   },
   {
    "slug": "switch-and-save-bills-uk.html",
@@ -840,7 +856,7 @@
    "done": "",
    "title": "The Insurance Loyalty Penalty Was Banned in 2022. Most Advice Has Not Caught Up.",
    "reason": "checked August 2026",
-   "order": 105
+   "order": 107
   },
   {
    "slug": "vpn-uk-what-you-need.html",
@@ -848,7 +864,7 @@
    "done": "",
    "title": "A VPN Does Three Jobs Well. The Adverts Claim About Twelve.",
    "reason": "checked August 2026",
-   "order": 106
+   "order": 108
   },
   {
    "slug": "youtube-earnings-uk.html",
@@ -856,7 +872,7 @@
    "done": "",
    "title": "Same 50,000 Views. £100 in Gaming, £300 in Finance. The Subject Decides Almost Everything.",
    "reason": "checked August 2026",
-   "order": 107
+   "order": 109
   },
   {
    "slug": "companies-house-id-verification-deadline-uk.html",
@@ -864,7 +880,7 @@
    "done": "",
    "title": "82 Days Left, and 3.6 Million Company Owners Still Owe Companies House a Filing They Have Never Heard Of",
    "reason": "checked August 2026",
-   "order": 108
+   "order": 110
   },
   {
    "slug": "food-delivery-driver-earnings-uk.html",
@@ -872,7 +888,7 @@
    "done": "",
    "title": "£17.18 an Hour on Paper. Here Is What Food Delivery Pays Once the Car Is Paid For",
    "reason": "checked August 2026",
-   "order": 109
+   "order": 111
   },
   {
    "slug": "affiliate-site-real-cost-uk.html",
@@ -880,7 +896,7 @@
    "done": "",
    "title": "The £2.99 Hosting Deal Wants Four Years Up Front. Here Is the Real Bill",
    "reason": "checked August 2026",
-   "order": 110
+   "order": 112
   },
   {
    "slug": "rent-out-your-driveway-uk.html",
@@ -888,7 +904,7 @@
    "done": "",
    "title": "Your Driveway Can Earn £1,000 Tax Free. The Platform Telling You That Is Measuring It Wrong",
    "reason": "checked August 2026",
-   "order": 111
+   "order": 113
   },
   {
    "slug": "uk-jobs-market-pay-rise-2026.html",
@@ -896,7 +912,7 @@
    "done": "",
    "title": "The Jobs Data Says Two Opposite Things This Month. Here Is Which One Applies to You",
    "reason": "checked August 2026",
-   "order": 112
+   "order": 114
   },
   {
    "slug": "broadband-price-rises-uk-true-cost.html",
@@ -904,7 +920,7 @@
    "done": "",
    "title": "Your Broadband Deal Has Two Price Rises Already Written Into It. Here Is What It Actually Costs",
    "reason": "checked August 2026",
-   "order": 113
+   "order": 115
   },
   {
    "slug": "dog-walking-side-hustle-uk-costs.html",
@@ -912,7 +928,7 @@
    "done": "",
    "title": "Walking Dogs Needs No Licence. Boarding One at Your Own House Costs £533.",
    "reason": "checked August 2026",
-   "order": 114
+   "order": 116
   },
   {
    "slug": "hmrc-crypto-reporting-rules-uk.html",
@@ -920,7 +936,7 @@
    "done": "",
    "title": "HMRC Has Been Collecting Your Crypto Data Since January. The £300 Fine Everyone Quotes Is the Wrong One",
    "reason": "checked August 2026",
-   "order": 115
+   "order": 117
   },
   {
    "slug": "draught-proofing-payback-uk.html",
@@ -928,7 +944,7 @@
    "done": "",
    "title": "Draught Proofing Pays Back In Four And A Half Years Professionally And Under Two If You Do It Yourself. Nothing Else In This Series Comes Close.",
    "reason": "checked September 2026",
-   "order": 116
+   "order": 118
   },
   {
    "slug": "car-insurance-prices-q2-2026-abi-uk.html",
@@ -936,7 +952,7 @@
    "done": "",
    "title": "The Average Car Insurance Premium Is £566. Your Renewal Says £900. Both Numbers Are True, And Here Is Why.",
    "reason": "checked September 2026",
-   "order": 117
+   "order": 119
   },
   {
    "slug": "dishwasher-replace-or-keep-a-rated-vs-g-rated-uk.html",
@@ -944,7 +960,7 @@
    "done": "",
    "title": "A G-Rated Dishwasher Costs Twice As Much To Run As An A-Rated One. Replacing It Still Takes 13 Years To Pay Back, So Keep It Until It Dies.",
    "reason": "checked September 2026",
-   "order": 118
+   "order": 120
   },
   {
    "slug": "tv-running-cost-by-size-and-energy-rating-uk.html",
@@ -952,7 +968,7 @@
    "done": "",
    "title": "A 60-Inch TV Costs £40 A Year To Run And A 40-Inch One £20. The Inches Decide The Bill, Not The Letter On The Label.",
    "reason": "checked September 2026",
-   "order": 119
+   "order": 121
   },
   {
    "slug": "ebay-private-vs-business-seller-fees-uk.html",
@@ -960,15 +976,7 @@
    "done": "",
    "title": "eBay Is Free For Private Sellers. Get Reclassified As A Business And A £60 Sale Costs You £7.75.",
    "reason": "checked September 2026",
-   "order": 120
-  },
-  {
-   "slug": "autumn-budget-2026-uk.html",
-   "status": "todo",
-   "done": "",
-   "title": "Budget 2026 Is Wednesday 28 October: What Is Already Decided, and the Five Figures With a Decision Attached",
-   "reason": "checked September 2026",
-   "order": 121
+   "order": 122
   },
   {
    "slug": "child-benefit-31-august-deadline-uk.html",
@@ -976,7 +984,7 @@
    "done": "",
    "title": "Your Child Benefit Stopped on 31 August. You Have Until 30 November to Get All of It Back",
    "reason": "checked September 2026",
-   "order": 122
+   "order": 123
   },
   {
    "slug": "fire-and-rehire-ban-moved-to-january-2027-uk.html",
@@ -984,7 +992,7 @@
    "done": "",
    "title": "Fire and Rehire Protections Slipped to January 2027: What Changed, What Did Not, and What Still Lands in October",
    "reason": "checked September 2026",
-   "order": 123
+   "order": 124
   },
   {
    "slug": "heat-pump-grant-uk-worth-it.html",
@@ -992,7 +1000,7 @@
    "done": "",
    "title": "The Heat Pump Grant Is £7,500, Or £9,000 Off The Gas Grid. Whether You Save A Penny Turns On One Number Nobody Quotes",
    "reason": "checked September 2026",
-   "order": 124
+   "order": 125
   },
   {
    "slug": "solar-panels-payback-2026-uk.html",
@@ -1000,7 +1008,7 @@
    "done": "",
    "title": "Solar Panels Pay Back In About Ten Years, But Only If You Sign Up To Export. Without That, Add Twenty.",
    "reason": "checked September 2026",
-   "order": 125
+   "order": 126
   },
   {
    "slug": "umbrella-company-vs-agency-paye-uk.html",
@@ -1008,7 +1016,7 @@
    "done": "",
    "title": "Your Agency Says £22 an Hour. The Umbrella Turns It Into £18.87.",
    "reason": "checked September 2026",
-   "order": 126
+   "order": 127
   },
   {
    "slug": "making-tax-digital-income-tax-uk.html",
@@ -1016,7 +1024,7 @@
    "done": "",
    "title": "HMRC Starts Signing People Up to Digital Tax This Month, Whether They Asked Or Not",
    "reason": "checked September 2026",
-   "order": 127
+   "order": 128
   },
   {
    "slug": "affiliate-disclosure-rules-uk.html",
@@ -1024,7 +1032,7 @@
    "done": "",
    "title": "The Disclosure Phrase On Half The UK Money Blogs Has Already Been Ruled Against",
    "reason": "checked September 2026",
-   "order": 128
+   "order": 129
   },
   {
    "slug": "affiliate-vs-display-ads-uk.html",
@@ -1032,7 +1040,7 @@
    "done": "",
    "title": "Affiliate Links Or Display Ads: The Traffic Number Everyone Quotes Decides Nothing",
    "reason": "checked September 2026",
-   "order": 129
+   "order": 130
   },
   {
    "slug": "air-fryer-vs-oven-running-costs-uk.html",
@@ -1040,7 +1048,7 @@
    "done": "",
    "title": "An Air Fryer Saves About 18p A Meal. Cooking For Four, The Oven Wins.",
    "reason": "checked September 2026",
-   "order": 130
+   "order": 131
   },
   {
    "slug": "bookkeeping-side-hustle-uk.html",
@@ -1048,15 +1056,15 @@
    "done": "",
    "title": "Every Guide To Starting A Bookkeeping Business Skips The Bit Where It Is A Criminal Offence",
    "reason": "checked September 2026",
-   "order": 131
+   "order": 132
   },
   {
    "slug": "cash-isa-changes-2027-uk.html",
-   "status": "todo",
-   "done": "",
+   "status": "done",
+   "done": "2026-11-15",
    "title": "The Cash ISA Is Being Cut by £8,000: What That Actually Means for You",
    "reason": "checked September 2026",
-   "order": 132
+   "order": 133
   },
   {
    "slug": "child-trust-fund-unclaimed-uk.html",
@@ -1064,7 +1072,7 @@
    "done": "",
    "title": "760,000 People Own Money They Do Not Know About. Some Are Paying £400 To Be Told Where It Is.",
    "reason": "checked September 2026",
-   "order": 133
+   "order": 134
   },
   {
    "slug": "christmas-temp-jobs-2026-uk.html",
@@ -1072,7 +1080,7 @@
    "done": "",
    "title": "Christmas Temp Hiring Opens This Month. The Tax Code On A Second Job Takes 20% Of Every Pound, And The NI Rule Gives Some Back.",
    "reason": "checked September 2026",
-   "order": 134
+   "order": 135
   },
   {
    "slug": "council-tax-band-challenge-uk.html",
@@ -1080,7 +1088,7 @@
    "done": "",
    "title": "Your Council Tax Band Is A 1991 Valuation, And The Free Price Data Starts In 1995",
    "reason": "checked September 2026",
-   "order": 135
+   "order": 136
   },
   {
    "slug": "dehumidifier-running-cost-worth-it-uk.html",
@@ -1088,7 +1096,7 @@
    "done": "",
    "title": "A Dehumidifier Does Not Save You Money. Except In One Room, Where It Pays Back In Two Years.",
    "reason": "checked September 2026",
-   "order": 136
+   "order": 137
   },
   {
    "slug": "driving-instructor-uk-cost.html",
@@ -1096,7 +1104,7 @@
    "done": "",
    "title": "Three Attempts, Two Years, And A Two-Year Lockout: The Driving Instructor Route Priced Honestly",
    "reason": "checked September 2026",
-   "order": 137
+   "order": 138
   },
   {
    "slug": "electric-heater-vs-central-heating-one-room-uk.html",
@@ -1104,7 +1112,7 @@
    "done": "",
    "title": "Electricity Is Three Times The Price Of Gas Per Unit Of Heat. So When Does A Plug-In Heater Actually Win?",
    "reason": "checked September 2026",
-   "order": 138
+   "order": 139
   },
   {
    "slug": "email-list-cost-affiliate-uk.html",
@@ -1112,7 +1120,7 @@
    "done": "",
    "title": "Nobody Tells You An Email List Bills You For The People Who Never Open It",
    "reason": "checked September 2026",
-   "order": 139
+   "order": 140
   },
   {
    "slug": "flexible-working-request-uk.html",
@@ -1120,7 +1128,7 @@
    "done": "",
    "title": "You Can Ask From Day One. The Eight Reasons They Can Say No Are The Whole Game.",
    "reason": "checked September 2026",
-   "order": 140
+   "order": 141
   },
   {
    "slug": "fridge-freezer-replace-or-keep-uk.html",
@@ -1128,7 +1136,7 @@
    "done": "",
    "title": "Should You Replace A Working Fridge Freezer To Save Electricity? Measure It First. The Payback Is Usually Longer Than The Fridge.",
    "reason": "checked September 2026",
-   "order": 141
+   "order": 142
   },
   {
    "slug": "google-core-update-2026-affiliate-sites-uk.html",
@@ -1136,7 +1144,7 @@
    "done": "",
    "title": "There Has Been No Google Core Update Since 2 June. The August Volatility Was A Spam Update. Check The Dashboard Before You Rewrite Anything.",
    "reason": "checked September 2026",
-   "order": 142
+   "order": 143
   },
   {
    "slug": "heated-airer-vs-tumble-dryer-running-cost-uk.html",
@@ -1144,7 +1152,7 @@
    "done": "",
    "title": "A Heated Airer Costs 20p A Load. A Condenser Dryer Costs 92p. Here Is The Whole Sum.",
    "reason": "checked September 2026",
-   "order": 143
+   "order": 144
   },
   {
    "slug": "help-to-save-uk-50-percent-bonus.html",
@@ -1152,7 +1160,7 @@
    "done": "",
    "title": "Help To Save Pays A 50% Bonus And Closes To New Accounts In April 2027. Mind The Year 3 Trap.",
    "reason": "checked September 2026",
-   "order": 144
+   "order": 145
   },
   {
    "slug": "hmrc-p800-tax-calculation-letter-uk.html",
@@ -1160,7 +1168,7 @@
    "done": "",
    "title": "HMRC Is Sending P800 Letters Until March. Four Tells Separate A Real Refund From A Fake One.",
    "reason": "checked September 2026",
-   "order": 145
+   "order": 146
   },
   {
    "slug": "iphone-18-event-wait-or-buy-iphone-17-uk.html",
@@ -1168,7 +1176,7 @@
    "done": "",
    "title": "Apple's Event Is On 9 September At 6pm. If You Want An iPhone 17 At £799, The Only Question Is Whether To Wait A Week.",
    "reason": "checked September 2026",
-   "order": 146
+   "order": 147
   },
   {
    "slug": "loft-insulation-payback-uk.html",
@@ -1176,7 +1184,7 @@
    "done": "",
    "title": "Loft Insulation Pays Back In Four Years. Unless You Already Have Some, In Which Case It Is Thirty-Five.",
    "reason": "checked September 2026",
-   "order": 147
+   "order": 148
   },
   {
    "slug": "premium-bonds-vs-savings-account-uk.html",
@@ -1184,7 +1192,7 @@
    "done": "",
    "title": "Premium Bonds Advertise 4.35%. Over Half Of Small Holders Will Win Nothing All Year.",
    "reason": "checked September 2026",
-   "order": 148
+   "order": 149
   },
   {
    "slug": "redundancy-pay-uk-calculate.html",
@@ -1192,7 +1200,7 @@
    "done": "",
    "title": "Twenty-Four Years Of Service, Twenty-Five Weeks Of Pay: How The Redundancy Caps Bite",
    "reason": "checked September 2026",
-   "order": 149
+   "order": 150
   },
   {
    "slug": "savings-interest-tax-uk.html",
@@ -1200,7 +1208,7 @@
    "done": "",
    "title": "Your Savings Allowance Has Not Moved Since 2016. Your Interest Rate Has.",
    "reason": "checked September 2026",
-   "order": 150
+   "order": 151
   },
   {
    "slug": "state-pension-april-2027-triple-lock-uk.html",
@@ -1208,7 +1216,7 @@
    "done": "",
    "title": "The Number That Sets Your April 2027 State Pension Lands On 15 September. Under Every Outcome It Crosses The Tax Threshold.",
    "reason": "checked September 2026",
-   "order": 151
+   "order": 152
   },
   {
    "slug": "statutory-sick-pay-uk-what-you-get.html",
@@ -1216,7 +1224,7 @@
    "done": "",
    "title": "The Sick Pay Figure Everyone Quotes Only Applies If You Earn Over £154.06 A Week",
    "reason": "checked September 2026",
-   "order": 152
+   "order": 153
   },
   {
    "slug": "student-maintenance-loan-2026-27-parents-uk.html",
@@ -1224,7 +1232,7 @@
    "done": "",
    "title": "Your Child's Maintenance Loan Assumes You Will Pay Up To £5,782 A Year. Nobody Sends You The Bill.",
    "reason": "checked September 2026",
-   "order": 153
+   "order": 154
   },
   {
    "slug": "tiktok-shop-affiliate-uk-what-you-earn.html",
@@ -1232,7 +1240,7 @@
    "done": "",
    "title": "TikTok Shop Affiliate Pays Commission On Revenue Minus Refunds, Up To 15 Days After Delivery. Here Is What A £30 Sale Actually Puts In Your Bank.",
    "reason": "checked September 2026",
-   "order": 154
+   "order": 155
   },
   {
    "slug": "warm-home-discount-winter-2026-uk.html",
@@ -1240,7 +1248,7 @@
    "done": "",
    "title": "The Warm Home Discount Qualifying Date Has Already Passed. Here Is What That Means For Your £150.",
    "reason": "checked September 2026",
-   "order": 155
+   "order": 156
   },
   {
    "slug": "water-meter-worth-it-uk.html",
@@ -1248,7 +1256,7 @@
    "done": "",
    "title": "A Water Meter Is A Two Year Experiment, Not A Decision. Almost Nobody Is Told That.",
    "reason": "checked September 2026",
-   "order": 156
+   "order": 157
   },
   {
    "slug": "windows-10-support-october-2027-what-changed-uk.html",
@@ -1256,7 +1264,7 @@
    "done": "",
    "title": "Windows 10 Was Supposed To Stop Getting Security Updates On 13 October. It Now Runs To 2027, But Only If You Enrol.",
    "reason": "checked September 2026",
-   "order": 157
+   "order": 158
   },
   {
    "slug": "ai-overviews-opt-out-google-publisher-controls-uk.html",
@@ -1264,7 +1272,7 @@
    "done": "",
    "title": "Google Must Let UK Sites Opt Out Of AI Overviews By 3 December. Should A Small Affiliate Site Actually Do It? The Numbers Say Probably Not Yet.",
    "reason": "checked September 2026",
-   "order": 158
+   "order": 159
   },
   {
    "slug": "boiler-replacement-payback-uk.html",
@@ -1272,7 +1280,7 @@
    "done": "",
    "title": "Replacing A Working Boiler Pays Back In Seven Years At Best And Thirty-Nine At Worst. Here Is How To Find Your Number.",
    "reason": "checked September 2026",
-   "order": 159
+   "order": 160
   },
   {
    "slug": "boiling-water-tap-vs-kettle-worth-it-uk.html",
@@ -1280,7 +1288,7 @@
    "done": "",
    "title": "A Boiling Water Tap Cannot Pay For Itself. Its Standby Alone Costs More Than A Kettle's Entire Year. Buy It For The Kitchen, Or Do Not Buy It.",
    "reason": "checked September 2026",
-   "order": 160
+   "order": 161
   },
   {
    "slug": "chest-freezer-second-freezer-running-cost-uk.html",
@@ -1288,7 +1296,7 @@
    "done": "",
    "title": "A Second Freezer Costs £43 To £62 A Year Before You Put Anything In It. Most Households Never Save That Back.",
    "reason": "checked September 2026",
-   "order": 161
+   "order": 162
   },
   {
    "slug": "cordless-vacuum-true-cost-uk.html",
@@ -1296,7 +1304,7 @@
    "done": "",
    "title": "A Cordless Vacuum Saves You £7 A Year In Electricity And Costs You A Battery Every Four Years. Do That Sum Before The Watts One.",
    "reason": "checked September 2026",
-   "order": 162
+   "order": 163
   },
   {
    "slug": "dishwasher-vs-hand-washing-cost-uk.html",
@@ -1304,7 +1312,7 @@
    "done": "",
    "title": "A Dishwasher Does Not Save You Money If You Wash Up In A Bowl. It Does If You Rinse Under The Tap.",
    "reason": "checked September 2026",
-   "order": 163
+   "order": 164
   },
   {
    "slug": "double-glazing-payback-uk.html",
@@ -1312,7 +1320,7 @@
    "done": "",
    "title": "Double Glazing Takes 56 Years To Pay For Itself. Buy It Anyway, But Not For The Reason The Salesman Gives.",
    "reason": "checked September 2026",
-   "order": 164
+   "order": 165
   },
   {
    "slug": "electric-shower-vs-mixer-shower-running-cost-uk.html",
@@ -1320,7 +1328,7 @@
    "done": "",
    "title": "An Electric Shower Costs About A Third More Per Shower Than A Gas Mixer, And Uses Half The Water. Here Is When Each One Wins.",
    "reason": "checked September 2026",
-   "order": 165
+   "order": 166
   },
   {
    "slug": "electric-underfloor-heating-running-cost-uk.html",
@@ -1328,7 +1336,7 @@
    "done": "",
    "title": "Electric Underfloor Heating Costs About 4p Per Square Metre Per Hour. In A Bathroom That Is Nothing. As The Only Heating In A Kitchen It Is Nearly £700 A Winter.",
    "reason": "checked September 2026",
-   "order": 166
+   "order": 167
   },
   {
    "slug": "google-fair-ranking-rule-december-2026-affiliate-sites-uk.html",
@@ -1336,7 +1344,7 @@
    "done": "",
    "title": "Google Has Until 17 December To Rank UK Search Results Fairly. What The CMA Rule Actually Gives A Small Affiliate Site, And What It Does Not.",
    "reason": "checked September 2026",
-   "order": 167
+   "order": 168
   },
   {
    "slug": "heat-pump-tumble-dryer-worth-extra-uk.html",
@@ -1344,7 +1352,7 @@
    "done": "",
    "title": "Heat Pump Tumble Dryers Cost More To Buy And Half As Much To Run. The Premium Pays Back In About Two And A Half Years.",
    "reason": "checked September 2026",
-   "order": 168
+   "order": 169
   },
   {
    "slug": "hmrc-nudge-letter-online-sellers-what-to-do-uk.html",
@@ -1352,7 +1360,7 @@
    "done": "",
    "title": "HMRC Has Two Years Of Vinted And eBay Data And Is Writing To Sellers. What The Letter Is, What It Is Not, And The Free Route Back.",
    "reason": "checked September 2026",
-   "order": 169
+   "order": 170
   },
   {
    "slug": "immersion-heater-vs-gas-boiler-hot-water-cost-uk.html",
@@ -1360,7 +1368,7 @@
    "done": "",
    "title": "The Immersion Heater Is The Most Expensive Switch In The House. It Costs Three Times What The Boiler Does, And Most People Leave It On By Accident.",
    "reason": "checked September 2026",
-   "order": 170
+   "order": 171
   },
   {
    "slug": "induction-hob-vs-gas-hob-running-cost-uk.html",
@@ -1368,7 +1376,7 @@
    "done": "",
    "title": "An Induction Hob Will Not Cut Your Cooking Bill If You Have Gas. Buy It For Speed And Safety, Not Savings.",
    "reason": "checked September 2026",
-   "order": 171
+   "order": 172
   },
   {
    "slug": "landline-switch-off-31-january-2027-what-to-do-uk.html",
@@ -1376,7 +1384,7 @@
    "done": "",
    "title": "The Old Phone Network Is Switched Off On 31 January 2027. 1.5 Million Lines Have Not Moved. Here Is What Each Kind Of Household Needs.",
    "reason": "checked September 2026",
-   "order": 172
+   "order": 173
   },
   {
    "slug": "payrolling-benefits-april-2027-company-car-payslip-uk.html",
@@ -1384,7 +1392,7 @@
    "done": "",
    "title": "From 6 April 2027 Your Company Car And Health Cover Are Taxed On The Payslip, Not The P11D. What Actually Changes In Your Pay Packet.",
    "reason": "checked September 2026",
-   "order": 173
+   "order": 174
   },
   {
    "slug": "pensions-inheritance-tax-april-2027-uk.html",
@@ -1392,7 +1400,7 @@
    "done": "",
    "title": "From 6 April 2027 An Unused Pension Counts For Inheritance Tax. HMRC Says 10,500 Estates A Year Will Pay Who Never Would Have. Here Is The Arithmetic.",
    "reason": "checked September 2026",
-   "order": 174
+   "order": 175
   },
   {
    "slug": "secondary-glazing-vs-window-film-renters-uk.html",
@@ -1400,7 +1408,7 @@
    "done": "",
    "title": "You Cannot Replace Your Landlord's Windows. Film Pays Back In A Winter, Magnetic Panels Take A Decade, And Both Leave With You.",
    "reason": "checked September 2026",
-   "order": 175
+   "order": 176
   },
   {
    "slug": "student-visa-maintenance-30-november-2026-uk.html",
@@ -1408,7 +1416,7 @@
    "done": "",
    "title": "Student Visa Money Rule Rises On 30 November: £1,570 A Month In London, £1,203 Elsewhere. Apply Before Then And The Old Figures Apply.",
    "reason": "checked September 2026",
-   "order": 176
+   "order": 177
   },
   {
    "slug": "thermal-curtains-vs-blinds-heat-loss-uk.html",
@@ -1416,7 +1424,7 @@
    "done": "",
    "title": "Thermal Curtains Will Not Pay For Themselves. Buy Them Anyway, But Only The Lined Ones, And Only If You Need Curtains.",
    "reason": "checked September 2026",
-   "order": 177
+   "order": 178
   },
   {
    "slug": "tuition-fees-9790-2026-27-what-it-actually-costs-uk.html",
@@ -1424,7 +1432,7 @@
    "done": "",
    "title": "Tuition Fees Are £9,790 This Term And Will Rise Every Year. The Fee Is Not What A Graduate Pays. Here Is The Number That Is.",
    "reason": "checked September 2026",
-   "order": 178
+   "order": 179
   },
   {
    "slug": "ai-assisted-freelance-writing-uk-30-day-plan-under-50-pounds.html",
@@ -1432,7 +1440,7 @@
    "done": "",
    "title": "A 30-Day Plan to Test AI-Assisted Freelance Writing From the UK for Under GBP 20 a Month: The Hours, the Exact Cost, the First Milestone, and the Day You Stop",
    "reason": "checked September 2026",
-   "order": 179
+   "order": 180
   },
   {
    "slug": "airbnb-hosting-uk-what-it-actually-costs.html",
@@ -1440,7 +1448,7 @@
    "done": "",
    "title": "Airbnb Takes 3% From You and Up to 16.5% From Your Guest. What Letting a Spare Room 60 Nights a Year Actually Leaves You With",
    "reason": "checked September 2026",
-   "order": 180
+   "order": 181
   },
   {
    "slug": "amazon-influencer-programme-vs-associates-uk.html",
@@ -1448,7 +1456,7 @@
    "done": "",
    "title": "Amazon's Influencer Programme Pays the Same Rates as Associates. The Only Thing You Are Applying For Is a Storefront",
    "reason": "checked September 2026",
-   "order": 181
+   "order": 182
   },
   {
    "slug": "bus-fare-cap-2-pounds-january-2027-what-it-saves-uk.html",
@@ -1456,7 +1464,7 @@
    "done": "",
    "title": "The Bus Fare Cap Drops From £3 to £2 on 1 January 2027: £520 a Year for a Five-Day Commuter, and Who Gets Nothing",
    "reason": "checked September 2026",
-   "order": 182
+   "order": 183
   },
   {
    "slug": "carers-allowance-earnings-limit-204-a-week-uk.html",
@@ -1464,7 +1472,7 @@
    "done": "",
    "title": "The Cliff Edge at £204: How Carer's Allowance Stops Dead if You Earn £204.01, and the Sums That Keep You Under It",
    "reason": "checked September 2026",
-   "order": 183
+   "order": 184
   },
   {
    "slug": "cavity-wall-insulation-payback-uk.html",
@@ -1472,7 +1480,7 @@
    "done": "",
    "title": "Cavity Wall Insulation Pays Back In About Ten Years Whether You Live In A Flat Or A Detached House. So Stop Doing The Sum And Check The Cavity.",
    "reason": "checked September 2026",
-   "order": 184
+   "order": 185
   },
   {
    "slug": "claude-code-build-a-small-paid-tool-uk-cost-stack.html",
@@ -1480,7 +1488,7 @@
    "done": "",
    "title": "Building a GBP 5 a Month Web Tool With Claude Code: The Full UK Cost Stack, and How Many Subscribers It Takes to Break Even",
    "reason": "checked September 2026",
-   "order": 185
+   "order": 186
   },
   {
    "slug": "claude-cowork-take-an-admin-job-off-a-small-business-uk.html",
@@ -1488,7 +1496,7 @@
    "done": "",
    "title": "Claude Cowork Works Inside Your Folders, Not a Chat Box. What It Can Actually Take Off a UK Small Business, What It Cannot, and What a Client Month Costs to Run",
    "reason": "checked September 2026",
-   "order": 186
+   "order": 187
   },
   {
    "slug": "claude-in-chrome-what-it-actually-does-and-what-it-asks-for-uk.html",
@@ -1496,7 +1504,7 @@
    "done": "",
    "title": "Claude in Chrome Has 15 Million Users, a 2.8 Star Rating and Asks for 15 Permissions Including Debugger. What It Actually Does in a Browser, What It Costs, and Where a UK Freelancer Should Not Point It",
    "reason": "checked September 2026",
-   "order": 187
+   "order": 188
   },
   {
    "slug": "claude-plans-uk-what-each-tier-costs-and-buys.html",
@@ -1504,7 +1512,7 @@
    "done": "",
    "title": "Claude Pro Is Priced in Dollars and VAT Goes on Top. What Each Plan Actually Costs a UK Freelancer, and How Many Billed Hours Pay for It",
    "reason": "checked September 2026",
-   "order": 188
+   "order": 189
   },
   {
    "slug": "dog-boarding-at-home-uk-licence-and-costs.html",
@@ -1512,7 +1520,7 @@
    "done": "",
    "title": "Boarding Other People's Dogs in Your Home Needs a Council Licence Once You Earn Over £1,000. What the Licence Demands, What Rover Keeps, and What a Night Actually Pays",
    "reason": "checked September 2026",
-   "order": 189
+   "order": 190
   },
   {
    "slug": "ebay-partner-network-uk-what-it-pays.html",
@@ -1520,7 +1528,7 @@
    "done": "",
    "title": "eBay's Affiliate Scheme Pays 1% to 4% and Gives You 24 Hours. What a Small UK Site Actually Earns on a £60 Sale",
    "reason": "checked September 2026",
-   "order": 190
+   "order": 191
   },
   {
    "slug": "electric-car-pay-per-mile-eved-april-2028-uk.html",
@@ -1528,7 +1536,7 @@
    "done": "",
    "title": "Pay-Per-Mile Electric Car Tax From April 2028: £300 a Year at 10,000 Miles, and How the Bill Actually Gets Collected",
    "reason": "checked September 2026",
-   "order": 191
+   "order": 192
   },
   {
    "slug": "electric-car-road-tax-2026-27-what-you-actually-pay-uk.html",
@@ -1536,7 +1544,7 @@
    "done": "",
    "title": "Electric Car Road Tax in 2026/27: £10, Then £200, Then £640 if the List Price Was Over £50,000",
    "reason": "checked September 2026",
-   "order": 192
+   "order": 193
   },
   {
    "slug": "electric-car-vs-petrol-cost-per-mile-2026-uk.html",
@@ -1544,7 +1552,7 @@
    "done": "",
    "title": "7.7p, 3.6p Or 20.5p A Mile: What An Electric Car Actually Costs To Run In 2026, And What April 2028 Does To It",
    "reason": "checked September 2026",
-   "order": 193
+   "order": 194
   },
   {
    "slug": "energy-price-cap-january-2027-forecast-uk.html",
@@ -1552,7 +1560,7 @@
    "done": "",
    "title": "£1,872 in January: Cornwall Insight's Price Cap Forecast, and the Two Things That Number Hides",
    "reason": "checked September 2026",
-   "order": 194
+   "order": 195
   },
   {
    "slug": "floor-insulation-payback-uk.html",
@@ -1560,7 +1568,7 @@
    "done": "",
    "title": "Professional Floor Insulation Takes 25 To 45 Years To Pay Back. Lift The Boards Yourself And It Is Under Eight. Fill The Gaps And It Is One Winter.",
    "reason": "checked September 2026",
-   "order": 195
+   "order": 196
   },
   {
    "slug": "heating-controls-trvs-and-smart-thermostat-payback-uk.html",
@@ -1568,7 +1576,7 @@
    "done": "",
    "title": "A Full Set Of Heating Controls Costs £600 And Pays Back In Six Years. A Smart Thermostat Costs £200 And Pays Back Only If It Replaces Something You Did Not Have.",
    "reason": "checked September 2026",
-   "order": 196
+   "order": 197
   },
   {
    "slug": "high-income-child-benefit-charge-pay-through-paye-uk.html",
@@ -1576,7 +1584,7 @@
    "done": "",
    "title": "The 31 January 2027 Fork: Pay the Child Benefit Charge Through Your Tax Code, or Get Dragged Into Self Assessment for Another Year",
    "reason": "checked September 2026",
-   "order": 197
+   "order": 198
   },
   {
    "slug": "home-ev-charger-and-off-peak-tariff-worth-it-uk.html",
@@ -1584,7 +1592,7 @@
    "done": "",
    "title": "A Home EV Charger Pays Back In Two And A Half Years. Not Because Of The Box, But Because Of The £8 Charge It Lets You Buy.",
    "reason": "checked September 2026",
-   "order": 198
+   "order": 199
   },
   {
    "slug": "hot-water-cylinder-jacket-and-pipe-lagging-payback-uk.html",
@@ -1592,7 +1600,7 @@
    "done": "",
    "title": "A £30 Cylinder Jacket Pays Back In Eight Months. It Is The Best Return On This Site, And Most Houses Cannot Use It",
    "reason": "checked September 2026",
-   "order": 199
+   "order": 200
   },
   {
    "slug": "hp-instant-ink-worth-it-uk.html",
@@ -1600,7 +1608,7 @@
    "done": "",
    "title": "HP Instant Ink Charges 9p a Page Whether You Print a Word or a Photo. The Plans, the Rollover Cap, and the Cartridges That Stop Working When You Cancel",
    "reason": "checked September 2026",
-   "order": 200
+   "order": 201
   },
   {
    "slug": "infrared-heating-panels-vs-electric-radiators-running-cost-uk.html",
@@ -1608,7 +1616,7 @@
    "done": "",
    "title": "A 600 W Infrared Panel And A 600 W Oil-Filled Radiator Both Cost 15.8p An Hour. The Panel Is Not More Efficient. It Might Still Be The Better Buy, For One Reason.",
    "reason": "checked September 2026",
-   "order": 201
+   "order": 202
   },
   {
    "slug": "led-bulbs-replace-all-at-once-or-as-they-fail-uk.html",
@@ -1616,7 +1624,7 @@
    "done": "",
    "title": "Replacing Every Halogen At Once Pays Back In Ten Months. Waiting For Them To Blow Costs You £1.08 A Month Each",
    "reason": "checked September 2026",
-   "order": 202
+   "order": 203
   },
   {
    "slug": "lifetime-isa-worth-it-uk.html",
@@ -1624,7 +1632,7 @@
    "done": "",
    "title": "Is a Lifetime ISA Worth It? The 25% Bonus Is Real, and So Is the Bit Where You Lose Your Own Money",
    "reason": "checked September 2026",
-   "order": 203
+   "order": 204
   },
   {
    "slug": "national-living-wage-april-2027-lpc-decision-october-uk.html",
@@ -1632,7 +1640,7 @@
    "done": "",
    "title": "Between £13.02 and £13.34: What the April 2027 National Living Wage Will Probably Be, and What It Means on a 37.5 Hour Week",
    "reason": "checked September 2026",
-   "order": 204
+   "order": 205
   },
   {
    "slug": "ofgem-debt-relief-scheme-2026-who-gets-energy-debt-written-off-uk.html",
@@ -1640,7 +1648,7 @@
    "done": "",
    "title": "Written Off, but Only This Debt: Who Ofgem's Debt Relief Scheme Was Built For, and Why Its Own Page Still Says Awaiting Decision",
    "reason": "checked September 2026",
-   "order": 205
+   "order": 206
   },
   {
    "slug": "paid-in-dollars-uk-freelancer-stripe-wise-paypal-what-lands.html",
@@ -1648,7 +1656,7 @@
    "done": "",
    "title": "A USD 1,000 Invoice From a US Client Lands as GBP 680 Through PayPal and About GBP 736 Through Wise. Every Fee, From the Vendors' Own Pages",
    "reason": "checked September 2026",
-   "order": 206
+   "order": 207
   },
   {
    "slug": "paid-surveys-uk-are-they-worth-your-time.html",
@@ -1656,7 +1664,7 @@
    "done": "",
    "title": "Paid Surveys Pay Less Than Minimum Wage on Purpose. The One Platform With a Published Floor, and the Hourly Rate Maths",
    "reason": "checked September 2026",
-   "order": 207
+   "order": 208
   },
   {
    "slug": "pension-credit-238-a-week-who-qualifies-2026-27-uk.html",
@@ -1664,7 +1672,7 @@
    "done": "",
    "title": "The £238 Line: Who Gets Pension Credit in 2026/27, Why a Full State Pension Is £3.30 Too Much, and What the Claim Unlocks",
    "reason": "checked September 2026",
-   "order": 208
+   "order": 209
   },
   {
    "slug": "radiator-reflector-panels-worth-it-uk.html",
@@ -1672,7 +1680,7 @@
    "done": "",
    "title": "Radiator Reflector Foil Costs £25 And Pays Back In 17 Months. Behind Half The Radiators In Most Houses It Pays Back Never. Here Is How To Tell Which Half.",
    "reason": "checked September 2026",
-   "order": 209
+   "order": 210
   },
   {
    "slug": "refurbished-iphone-vs-new-uk-what-you-actually-save.html",
@@ -1680,7 +1688,7 @@
    "done": "",
    "title": "Apple Sells Its Own Refurbished iPhone 16 for £110 Less Than New, With a New Battery. When That Saving Is Real, and When a Reseller Beats It",
    "reason": "checked September 2026",
-   "order": 210
+   "order": 211
   },
   {
    "slug": "selling-ai-prompts-and-templates-uk-honest-verdict.html",
@@ -1688,7 +1696,7 @@
    "done": "",
    "title": "Selling Prompts and Templates: PromptBase Keeps 20%, Gumroad 10% Plus 50 Cents, Etsy About 11%. Nobody Publishes What Sellers Earn, So Here Is What Has to Be True for It to Pay",
    "reason": "checked September 2026",
-   "order": 211
+   "order": 212
   },
   {
    "slug": "side-hustle-ideas-under-100-uk.html",
@@ -1696,7 +1704,7 @@
    "done": "",
    "title": "The £12.71 Test: Which Under-£100 Side Hustles Actually Beat Minimum Wage",
    "reason": "checked September 2026",
-   "order": 212
+   "order": 213
   },
   {
    "slug": "smart-plugs-and-standby-cost-45-a-year-uk.html",
@@ -1704,7 +1712,7 @@
    "done": "",
    "title": "Standby Costs £45 A Year. Two Smart Plugs Recover Most Of It, And Four Things Must Never Go On One",
    "reason": "checked September 2026",
-   "order": 213
+   "order": 214
   },
   {
    "slug": "solar-battery-storage-payback-uk.html",
@@ -1712,7 +1720,7 @@
    "done": "",
    "title": "A 5kWh Battery Costs About £4,600 And Earns Only The Gap Between Two Rates. For Most Houses That Is A 27 Year Payback",
    "reason": "checked September 2026",
-   "order": 214
+   "order": 215
   },
   {
    "slug": "solid-wall-insulation-payback-uk.html",
@@ -1720,7 +1728,7 @@
    "done": "",
    "title": "Solid Wall Insulation Costs £12,000 To £15,000 And Saves £140 To £500 A Year. Nobody Should Buy It To Save Money. Here Is Why Some People Should Still Buy It.",
    "reason": "checked September 2026",
-   "order": 215
+   "order": 216
   },
   {
    "slug": "statutory-maternity-pay-what-you-actually-get-uk.html",
@@ -1728,7 +1736,7 @@
    "done": "",
    "title": "Statutory Maternity Pay Is 39 Weeks, Not 52, and Only Six of Them Are at 90%. What a £28,000 Salary Actually Receives",
    "reason": "checked September 2026",
-   "order": 216
+   "order": 217
   },
   {
    "slug": "tax-free-childcare-vs-30-hours-free-childcare-uk.html",
@@ -1736,7 +1744,7 @@
    "done": "",
    "title": "Tax-Free Childcare Pays 20% Up to £500 a Quarter. The 30 Hours Pay Far More. Which to Use, Why You Can Have Both, and the £100,000 Cliff They Share",
    "reason": "checked September 2026",
-   "order": 217
+   "order": 218
   },
   {
    "slug": "teaching-ai-tools-to-local-businesses-uk-what-it-costs-to-start.html",
@@ -1744,7 +1752,7 @@
    "done": "",
    "title": "Teaching Local Businesses to Use Claude Costs About GBP 29 a Session to Deliver and Five Hours of Your Time. What to Charge, Why Most Firms Will Not Pay for Training, and What They Will Pay For",
    "reason": "checked September 2026",
-   "order": 218
+   "order": 219
   },
   {
    "slug": "tesco-clubcard-vs-nectar-what-a-point-is-worth-uk.html",
@@ -1752,7 +1760,7 @@
    "done": "",
    "title": "A Clubcard Point Is Worth 1p and a Nectar Point Is Worth Half That. What the Two Schemes Actually Pay on a £120 Weekly Shop",
    "reason": "checked September 2026",
-   "order": 219
+   "order": 220
   },
   {
    "slug": "tv-licence-do-you-actually-need-one-uk.html",
@@ -1760,7 +1768,7 @@
    "done": "",
    "title": "You Do Not Need a TV Licence to Own a TV. Here Is What £180 a Year Actually Buys, and Who Can Legally Stop Paying",
    "reason": "checked September 2026",
-   "order": 220
+   "order": 221
   },
   {
    "slug": "universal-credit-minimum-income-floor-ai-freelance-uk.html",
@@ -1768,7 +1776,7 @@
    "done": "",
    "title": "Start AI Freelance Work on Universal Credit and DWP May Assume You Earn 35 Hours at Minimum Wage Whether You Do or Not. The Minimum Income Floor, the 12-Month Start-Up Period, and the 55p Taper",
    "reason": "checked September 2026",
-   "order": 221
+   "order": 222
   },
   {
    "slug": "voluntary-national-insurance-top-up-state-pension-worth-it-uk.html",
@@ -1776,7 +1784,7 @@
    "done": "",
    "title": "One Missing National Insurance Year Costs £956.80 to Buy and Pays £358.50 a Year for Life. Who Should Buy, and Who Is Wasting Money",
    "reason": "checked September 2026",
-   "order": 222
+   "order": 223
   },
   {
    "slug": "access-to-work-grant-uk-what-it-pays-for-and-the-6500-rule.html",
@@ -1784,7 +1792,7 @@
    "done": "",
    "title": "Access to Work: what it actually pays for, and why £6,500 is not the cap you were told about",
    "reason": "checked September 2026",
-   "order": 223
+   "order": 224
   },
   {
    "slug": "amazon-flex-uk-what-you-actually-earn-per-block.html",
@@ -1792,7 +1800,7 @@
    "done": "",
    "title": "Amazon Flex: £13 an hour, and what is left after the car takes its cut",
    "reason": "checked September 2026",
-   "order": 224
+   "order": 225
   },
   {
    "slug": "attendance-allowance-76-70-or-114-60-who-gets-it-uk.html",
@@ -1800,7 +1808,7 @@
    "done": "",
    "title": "Attendance Allowance: not means-tested, and the door it opens is often worth more than the money",
    "reason": "checked September 2026",
-   "order": 225
+   "order": 226
   },
   {
    "slug": "disabled-facilities-grant-up-to-30000-uk.html",
@@ -1808,7 +1816,7 @@
    "done": "",
    "title": "Up to £30,000 from your council to adapt your home, and the mistake that voids it",
    "reason": "checked September 2026",
-   "order": 226
+   "order": 227
   },
   {
    "slug": "driving-licence-fees-2026-what-you-should-and-should-not-pay-uk.html",
@@ -1816,7 +1824,7 @@
    "done": "",
    "title": "Driving licence fees: three of the common ones are free, and one costs £7.50 more than it needs to",
    "reason": "checked September 2026",
-   "order": 227
+   "order": 228
   },
   {
    "slug": "gifting-money-7-year-rule-inheritance-tax-uk.html",
@@ -1824,7 +1832,7 @@
    "done": "",
    "title": "Gifting money: what you can give away this year without starting any clock at all",
    "reason": "checked September 2026",
-   "order": 228
+   "order": 229
   },
   {
    "slug": "healthy-start-uk-who-can-claim-and-the-408-a-month-rule.html",
@@ -1832,7 +1840,7 @@
    "done": "",
    "title": "Healthy Start: two ways in, and the £408 figure that is not what people think",
    "reason": "checked September 2026",
-   "order": 229
+   "order": 230
   },
   {
    "slug": "holiday-pay-irregular-hours-12-07-percent-explained-uk.html",
@@ -1840,7 +1848,7 @@
    "done": "",
    "title": "12.07%, rounded up: how holiday actually builds up on irregular hours",
    "reason": "checked September 2026",
-   "order": 230
+   "order": 231
   },
   {
    "slug": "housing-benefit-and-the-16000-capital-limit-uk.html",
@@ -1848,7 +1856,7 @@
    "done": "",
    "title": "Housing Benefit: the £16,000 line, and the two groups who can still claim at all",
    "reason": "checked September 2026",
-   "order": 231
+   "order": 232
   },
   {
    "slug": "how-to-declare-affiliate-income-to-hmrc-uk.html",
@@ -1856,7 +1864,7 @@
    "done": "",
    "title": "Affiliate income and HMRC: the £1,000 is measured before your costs, not after",
    "reason": "checked September 2026",
-   "order": 232
+   "order": 233
   },
   {
    "slug": "junior-isa-9000-a-year-worth-it-uk.html",
@@ -1864,7 +1872,7 @@
    "done": "",
    "title": "Junior ISA: £9,000 a year, locked until 18, and then entirely theirs",
    "reason": "checked September 2026",
-   "order": 233
+   "order": 234
   },
   {
    "slug": "marriage-allowance-252-a-year-who-can-claim-uk.html",
@@ -1872,7 +1880,7 @@
    "done": "",
    "title": "Marriage Allowance: £252 a year, backdated four, and the income line that decides it",
    "reason": "checked September 2026",
-   "order": 234
+   "order": 235
   },
   {
    "slug": "maternity-allowance-when-smp-does-not-apply-uk.html",
@@ -1880,7 +1888,7 @@
    "done": "",
    "title": "Maternity Allowance: £27 a week, or £194.32, and the £47.45 in between",
    "reason": "checked September 2026",
-   "order": 235
+   "order": 236
   },
   {
    "slug": "mot-fee-cap-and-what-a-garage-can-and-cannot-charge-uk.html",
@@ -1888,7 +1896,7 @@
    "done": "",
    "title": "The MOT test is capped at £54.85. The bit that costs you money is not capped at all",
    "reason": "checked September 2026",
-   "order": 236
+   "order": 237
   },
   {
    "slug": "new-style-jsa-182-days-and-what-it-actually-pays-uk.html",
@@ -1896,7 +1904,7 @@
    "done": "",
    "title": "New Style JSA: 182 days of payments, and savings that are ignored completely",
    "reason": "checked September 2026",
-   "order": 237
+   "order": 238
   },
   {
    "slug": "notice-period-what-you-are-owed-when-you-leave-or-are-let-go-uk.html",
@@ -1904,7 +1912,7 @@
    "done": "",
    "title": "Notice periods: one week from you, one week per year from them, twelve at most",
    "reason": "checked September 2026",
-   "order": 238
+   "order": 239
   },
   {
    "slug": "overpay-mortgage-or-save-the-difference-uk.html",
@@ -1912,7 +1920,7 @@
    "done": "",
    "title": "Overpay the mortgage or save the difference? One comparison decides it",
    "reason": "checked September 2026",
-   "order": 239
+   "order": 240
   },
   {
    "slug": "stamp-duty-first-time-buyer-2026-how-much-uk.html",
@@ -1920,7 +1928,7 @@
    "done": "",
    "title": "Stamp duty for first-time buyers: nil to £300,000, and the pound that costs you £5,000",
    "reason": "checked September 2026",
-   "order": 240
+   "order": 241
   },
   {
    "slug": "sure-start-maternity-grant-500-pounds-first-child-only-uk.html",
@@ -1928,7 +1936,7 @@
    "done": "",
    "title": "£500 for a new baby: the grant nobody claims, and the test everyone gets wrong",
    "reason": "checked September 2026",
-   "order": 241
+   "order": 242
   },
   {
    "slug": "upwork-fees-uk-freelancers-2026-what-you-actually-pay.html",
@@ -1936,7 +1944,7 @@
    "done": "",
    "title": "Upwork fees in 2026: the 20/10/5 sliding scale is gone, and most guides have not noticed",
    "reason": "checked September 2026",
-   "order": 242
+   "order": 243
   },
   {
    "slug": "american-fridge-freezer-running-cost-premium-uk.html",
@@ -1944,7 +1952,7 @@
    "done": "",
    "title": "An American Fridge Freezer Costs About £29 A Year More To Run, And £435 Over Its Life",
    "reason": "checked September 2026",
-   "order": 243
+   "order": 244
   },
   {
    "slug": "boiler-cover-vs-paying-for-repairs-yourself-uk.html",
@@ -1952,7 +1960,7 @@
    "done": "",
    "title": "Boiler Cover Insures A £225 Repair You Might Need Once Every Five Years, And Charges £228 A Year For It",
    "reason": "checked September 2026",
-   "order": 244
+   "order": 245
   },
   {
    "slug": "broadband-social-tariffs-2026-who-qualifies-uk.html",
@@ -1960,7 +1968,7 @@
    "done": "",
    "title": "Seven in Ten Households That Could Have a Cheaper Broadband Deal Do Not Know It Exists",
    "reason": "checked September 2026",
-   "order": 245
+   "order": 246
   },
   {
    "slug": "carpet-vs-laminate-vs-lvt-cost-per-year-uk.html",
@@ -1968,7 +1976,7 @@
    "done": "",
    "title": "Budget Carpet Costs £3.75 A Square Metre A Year. Laminate Costs £1.77. The Cheap Floor Is The Dear One",
    "reason": "checked September 2026",
-   "order": 246
+   "order": 247
   },
   {
    "slug": "cma-steering-rules-apple-google-app-subscriptions-uk.html",
@@ -1976,7 +1984,7 @@
    "done": "",
    "title": "The Reason Nobody Has Ever Told You an App Is Cheaper on Its Own Website",
    "reason": "checked September 2026",
-   "order": 247
+   "order": 248
   },
   {
    "slug": "crisis-and-resilience-fund-replaced-household-support-fund-uk.html",
@@ -1984,7 +1992,7 @@
    "done": "",
    "title": "If Someone Told You the Household Support Fund Was Finished, They Were Half Right",
    "reason": "checked September 2026",
-   "order": 248
+   "order": 249
   },
   {
    "slug": "dwp-direct-deduction-orders-bank-accounts-uk.html",
@@ -1992,7 +2000,7 @@
    "done": "",
    "title": "The DWP Bank Account Power Is Real, and It Reaches Far Fewer People Than the Headlines Say",
    "reason": "checked September 2026",
-   "order": 249
+   "order": 250
   },
   {
    "slug": "eco4-ends-31-december-2026-insulation-grants-uk.html",
@@ -2000,7 +2008,7 @@
    "done": "",
    "title": "The Scheme That Paid the Whole Insulation Bill Shuts in December, and This Time It Is Not Coming Back",
    "reason": "checked September 2026",
-   "order": 250
+   "order": 251
   },
   {
    "slug": "electric-blanket-vs-heating-the-bedroom-uk.html",
@@ -2008,7 +2016,7 @@
    "done": "",
    "title": "An 80 Watt Blanket Costs £9.48 A Winter. Heating The Same Bedroom Costs Between £60 And £237",
    "reason": "checked September 2026",
-   "order": 251
+   "order": 252
   },
   {
    "slug": "fca-targeted-support-what-your-pension-provider-can-now-say-uk.html",
@@ -2016,7 +2024,7 @@
    "done": "",
    "title": "Your Bank Is About to Start Telling You What People Like You Do With Their Money",
    "reason": "checked September 2026",
-   "order": 252
+   "order": 253
   },
   {
    "slug": "induction-vs-gas-hob-running-cost-uk.html",
@@ -2024,15 +2032,15 @@
    "done": "",
    "title": "Induction Is Twice As Efficient As Gas And Still Costs More To Run. Only One Thing Changes That",
    "reason": "checked September 2026",
-   "order": 253
+   "order": 254
   },
   {
    "slug": "low-flow-shower-head-payback-uk.html",
-   "status": "todo",
-   "done": "",
+   "status": "done",
+   "done": "2026-11-15",
    "title": "A £25 Shower Head Can Pay For Itself In Six Weeks, Or Never",
    "reason": "checked September 2026",
-   "order": 254
+   "order": 255
   },
   {
    "slug": "microwave-vs-oven-vs-hob-cost-to-cook-uk.html",
@@ -2040,7 +2048,7 @@
    "done": "",
    "title": "Your Oven Costs About Ten Times What Your Microwave Costs To Heat The Same Plate",
    "reason": "checked September 2026",
-   "order": 255
+   "order": 256
   },
   {
    "slug": "motor-finance-redress-paused-what-happens-now-uk.html",
@@ -2048,7 +2056,7 @@
    "done": "",
    "title": "Your Car Finance Payout Has Not Been Cancelled. It Has Been Put On Hold",
    "reason": "checked September 2026",
-   "order": 256
+   "order": 257
   },
   {
    "slug": "nhs-prescription-charge-9-90-frozen-ppc-break-even-uk.html",
@@ -2056,7 +2064,7 @@
    "done": "",
    "title": "Twelve. That Is the Whole Decision on Whether a Prescription Certificate Is Worth Buying",
    "reason": "checked September 2026",
-   "order": 257
+   "order": 258
   },
   {
    "slug": "paint-cost-per-square-metre-uk.html",
@@ -2064,7 +2072,7 @@
    "done": "",
    "title": "Cheap Paint Needs Three Coats. That Is Exactly Why It Is Not Cheap",
    "reason": "checked September 2026",
-   "order": 258
+   "order": 259
   },
   {
    "slug": "positive-input-ventilation-vs-dehumidifier-uk.html",
@@ -2072,15 +2080,15 @@
    "done": "",
    "title": "A PIV Unit Costs About £25 A Year To Run. A Dehumidifier Costs About £154",
    "reason": "checked September 2026",
-   "order": 259
+   "order": 260
   },
   {
    "slug": "renters-energy-saving-kit-what-you-take-with-you-uk.html",
-   "status": "todo",
-   "done": "",
+   "status": "done",
+   "done": "2026-11-15",
    "title": "Nine Things A Renter Can Fit Without Asking, And Six Of Them Come With You",
    "reason": "checked September 2026",
-   "order": 260
+   "order": 261
   },
   {
    "slug": "sofa-cost-per-year-of-use-uk.html",
@@ -2088,7 +2096,7 @@
    "done": "",
    "title": "Nobody Asks The Only Question That Decides A Sofa: How Many Years?",
    "reason": "checked September 2026",
-   "order": 261
+   "order": 262
   },
   {
    "slug": "storage-heaters-economy-7-replace-or-keep-uk.html",
@@ -2096,7 +2104,7 @@
    "done": "",
    "title": "New Storage Heaters Cut About 30% Off The Bill. On A £2,400 Install That Is Roughly Five Years",
    "reason": "checked September 2026",
-   "order": 262
+   "order": 263
   },
   {
    "slug": "washing-machine-30-vs-40-degrees-cost-per-wash-uk.html",
@@ -2104,7 +2112,7 @@
    "done": "",
    "title": "Washing At 30 Instead Of 40 Saves About 8p A Wash, Or £17.60 A Year, For Free",
    "reason": "checked September 2026",
-   "order": 263
+   "order": 264
   },
   {
    "slug": "washing-machine-repair-or-replace-uk.html",
@@ -2112,7 +2120,7 @@
    "done": "",
    "title": "A New Washing Machine Saves £26 A Year And Takes Fifteen Years To Pay For Itself. Repair The Old One",
    "reason": "checked September 2026",
-   "order": 264
+   "order": 265
   },
   {
    "slug": "water-bill-help-2026-27-watersure-social-tariffs-uk.html",
@@ -2120,7 +2128,7 @@
    "done": "",
    "title": "Your Water Bill Went Up 5.4% and There Is a 40% Discount Almost Nobody Asks For",
    "reason": "checked September 2026",
-   "order": 265
+   "order": 266
   },
   {
    "slug": "wood-burning-stove-running-cost-vs-central-heating-uk.html",
@@ -2128,7 +2136,7 @@
    "done": "",
    "title": "Logs Must Cost Under £126 A Cubic Metre To Beat Mains Gas. Most Cost £160 To £230",
    "reason": "checked September 2026",
-   "order": 266
+   "order": 267
   },
   {
    "slug": "zero-hours-guaranteed-hours-what-the-consultation-decided-uk.html",
@@ -2136,7 +2144,7 @@
    "done": "",
    "title": "The Right to Guaranteed Hours Exists. Whether You Have It Is Still a Blank in a Document",
    "reason": "checked September 2026",
-   "order": 267
+   "order": 268
   },
   {
    "slug": "affiliate-network-payment-terms-uk.html",
@@ -2144,7 +2152,7 @@
    "done": "",
    "title": "You Earned It in September. Amazon Pays It at the End of November",
    "reason": "checked September 2026",
-   "order": 268
+   "order": 269
   },
   {
    "slug": "agency-worker-12-week-rule-uk.html",
@@ -2152,7 +2160,7 @@
    "done": "",
    "title": "Twelve Weeks as an Agency Worker, and the Six Week Break That Wipes It Out",
    "reason": "checked September 2026",
-   "order": 269
+   "order": 270
   },
   {
    "slug": "app-fraud-reimbursement-85000-what-you-are-owed-uk.html",
@@ -2160,7 +2168,7 @@
    "done": "",
    "title": "If a Scammer Talked You Into a Bank Transfer, the Refund Is a Right and Not a Favour",
    "reason": "checked September 2026",
-   "order": 270
+   "order": 271
   },
   {
    "slug": "appliance-extended-warranty-worth-it-uk.html",
@@ -2168,7 +2176,7 @@
    "done": "",
    "title": "You Already Have Six Years Of Free Repair Rights",
    "reason": "checked September 2026",
-   "order": 271
+   "order": 272
   },
   {
    "slug": "auto-enrolment-thresholds-frozen-2026-27-uk.html",
@@ -2176,7 +2184,7 @@
    "done": "",
    "title": "The 8% Everyone Quotes for Workplace Pensions Is Not 8% of What You Earn",
    "reason": "checked September 2026",
-   "order": 272
+   "order": 273
   },
   {
    "slug": "bereavement-support-payment-claim-within-3-months-uk.html",
@@ -2184,7 +2192,7 @@
    "done": "",
    "title": "Up to GBP 9,800 Is Available When a Partner Dies, and the Clock Starts on the Day of the Death",
    "reason": "checked September 2026",
-   "order": 273
+   "order": 274
   },
   {
    "slug": "breadmaker-vs-shop-bread-uk.html",
@@ -2192,7 +2200,7 @@
    "done": "",
    "title": "A Home Loaf Costs 63p. The Question Is Which Loaf You Stopped Buying",
    "reason": "checked September 2026",
-   "order": 274
+   "order": 275
   },
   {
    "slug": "composite-front-door-vs-upvc-uk.html",
@@ -2200,7 +2208,7 @@
    "done": "",
    "title": "A New Front Door Saves £6.78 A Year On Heat",
    "reason": "checked September 2026",
-   "order": 275
+   "order": 276
   },
   {
    "slug": "conservatory-roof-replacement-payback-uk.html",
@@ -2208,7 +2216,7 @@
    "done": "",
    "title": "A Solid Conservatory Roof Pays Back In 239 Years",
    "reason": "checked September 2026",
-   "order": 276
+   "order": 277
   },
   {
    "slug": "current-account-switch-bonuses-uk.html",
@@ -2216,7 +2224,7 @@
    "done": "",
    "title": "Before You Chase a Switching Bonus, Price the Hoops",
    "reason": "checked September 2026",
-   "order": 277
+   "order": 278
   },
   {
    "slug": "electric-towel-rail-running-cost-uk.html",
@@ -2224,7 +2232,7 @@
    "done": "",
    "title": "An Electric Towel Rail Costs 7.9p An Hour",
    "reason": "checked September 2026",
-   "order": 278
+   "order": 279
   },
   {
    "slug": "employment-tribunal-compensation-limits-uk.html",
@@ -2232,7 +2240,7 @@
    "done": "",
    "title": "The Unfair Dismissal Cap Is £123,543. For Dismissals From January It Goes",
    "reason": "checked September 2026",
-   "order": 279
+   "order": 280
   },
   {
    "slug": "epc-c-2030-private-rented-homes-what-changed-uk.html",
@@ -2240,7 +2248,7 @@
    "done": "",
    "title": "The Rented Homes Deadline Is 2030, but the Rating It Is Measured Against Changes Next Month",
    "reason": "checked September 2026",
-   "order": 280
+   "order": 281
   },
   {
    "slug": "free-keyword-research-tools-uk.html",
@@ -2248,7 +2256,7 @@
    "done": "",
    "title": "Google's Free Keyword Tool Wants Your Card Details. Then It Rounds Everything",
    "reason": "checked September 2026",
-   "order": 281
+   "order": 282
   },
   {
    "slug": "garden-office-heating-running-cost-uk.html",
@@ -2256,7 +2264,7 @@
    "done": "",
    "title": "Heating A Garden Office Costs About 89p A Working Day",
    "reason": "checked September 2026",
-   "order": 282
+   "order": 283
   },
   {
    "slug": "hmrc-nudge-letter-side-hustle-what-it-does-not-mean-uk.html",
@@ -2264,7 +2272,7 @@
    "done": "",
    "title": "A Letter From HMRC About Your Online Selling Is Not a Tax Bill, and Two Numbers Explain Why",
    "reason": "checked September 2026",
-   "order": 283
+   "order": 284
   },
   {
    "slug": "hot-tub-running-cost-uk.html",
@@ -2272,7 +2280,7 @@
    "done": "",
    "title": "A Hot Tub Costs About £990 A Year In Electricity",
    "reason": "checked September 2026",
-   "order": 284
+   "order": 285
   },
   {
    "slug": "how-to-pick-an-affiliate-niche-uk.html",
@@ -2280,7 +2288,7 @@
    "done": "",
    "title": "The Affiliate Niche Question Is Really a Maths Question. Here Is the Maths",
    "reason": "checked September 2026",
-   "order": 285
+   "order": 286
   },
   {
    "slug": "kitchen-worktop-cost-per-year-uk.html",
@@ -2288,7 +2296,7 @@
    "done": "",
    "title": "A 30 Year Worktop In A 17 Year Kitchen Is 13 Years You Throw Away",
    "reason": "checked September 2026",
-   "order": 286
+   "order": 287
   },
   {
    "slug": "lawnmower-petrol-vs-cordless-uk.html",
@@ -2296,7 +2304,7 @@
    "done": "",
    "title": "A Cordless Mower Costs £1.74 A Year To Charge",
    "reason": "checked September 2026",
-   "order": 287
+   "order": 288
   },
   {
    "slug": "neonatal-care-leave-and-pay-who-qualifies-uk.html",
@@ -2304,7 +2312,7 @@
    "done": "",
    "title": "The Leave Entitlement Created So Parents Do Not Spend Their Maternity Leave in a Hospital Corridor",
    "reason": "checked September 2026",
-   "order": 288
+   "order": 289
   },
   {
    "slug": "pension-consolidation-worth-it-uk.html",
@@ -2312,7 +2320,7 @@
    "done": "",
    "title": "Merging Your Old Pensions Can Quietly Cost You Two Years of Access",
    "reason": "checked September 2026",
-   "order": 289
+   "order": 290
   },
   {
    "slug": "portable-air-conditioner-running-cost-uk.html",
@@ -2320,7 +2328,7 @@
    "done": "",
    "title": "A Portable Air Conditioner Costs 18 Times What A Fan Costs",
    "reason": "checked September 2026",
-   "order": 290
+   "order": 291
   },
   {
    "slug": "powerflush-worth-it-uk.html",
@@ -2328,7 +2336,7 @@
    "done": "",
    "title": "The British Standard Does Not Say You Need A Powerflush",
    "reason": "checked September 2026",
-   "order": 291
+   "order": 292
   },
   {
    "slug": "robot-vacuum-vs-cordless-vacuum-uk.html",
@@ -2336,7 +2344,7 @@
    "done": "",
    "title": "A Robot Vacuum Costs Twice As Much A Year To Own As A Cordless",
    "reason": "checked September 2026",
-   "order": 292
+   "order": 293
   },
   {
    "slug": "simple-assessment-60-day-window-uk.html",
@@ -2344,7 +2352,7 @@
    "done": "",
    "title": "The Brown Envelope That Is Not a Tax Return, and the Deadline Inside It That Expires First",
    "reason": "checked September 2026",
-   "order": 293
+   "order": 294
   },
   {
    "slug": "solar-immersion-diverter-worth-it-uk.html",
@@ -2352,15 +2360,15 @@
    "done": "",
    "title": "A Solar Diverter Only Pays Below One Particular Export Rate",
    "reason": "checked September 2026",
-   "order": 294
+   "order": 295
   },
   {
    "slug": "water-butt-payback-uk.html",
-   "status": "todo",
-   "done": "",
+   "status": "done",
+   "done": "2026-11-15",
    "title": "A Water Butt Takes 12 Years To Pay Back",
    "reason": "checked September 2026",
-   "order": 295
+   "order": 296
   },
   {
    "slug": "water-softener-worth-it-uk.html",
@@ -2368,7 +2376,7 @@
    "done": "",
    "title": "A Water Softener Has No Payback. It Has A Running Cost",
    "reason": "checked September 2026",
-   "order": 296
+   "order": 297
   },
   {
    "slug": "cold-weather-payment-25-pounds-how-it-works-uk.html",
@@ -2376,7 +2384,7 @@
    "done": "",
    "title": "Twenty five pounds, seven days below zero, and a postcode you have to look up",
    "reason": "checked September 2026",
-   "order": 297
+   "order": 298
   },
   {
    "slug": "drip-pricing-refund-cma-fine-uk.html",
@@ -2384,7 +2392,7 @@
    "done": "",
    "title": "The AA hid a three pound fee and it cost them nearly five million",
    "reason": "checked September 2026",
-   "order": 298
+   "order": 299
   },
   {
    "slug": "free-credit-score-services-uk.html",
@@ -2392,7 +2400,7 @@
    "done": "",
    "title": "Your credit score is not a number any lender ever sees",
    "reason": "checked September 2026",
-   "order": 299
+   "order": 300
   },
   {
    "slug": "ofcom-one-touch-switch-save-100-uk.html",
@@ -2400,7 +2408,7 @@
    "done": "",
    "title": "Ofcom says switching saves over a hundred pounds, so check whether you are the person it means",
    "reason": "checked September 2026",
-   "order": 300
+   "order": 301
   },
   {
    "slug": "paid-newsletter-subscribers-needed-uk.html",
@@ -2408,7 +2416,7 @@
    "done": "",
    "title": "A five pound subscription arrives as four pounds and change",
    "reason": "checked September 2026",
-   "order": 301
+   "order": 302
   },
   {
    "slug": "pip-timms-review-what-has-actually-changed-uk.html",
@@ -2416,7 +2424,7 @@
    "done": "",
    "title": "Nothing about your PIP has changed, and the review's own report says so",
    "reason": "checked September 2026",
-   "order": 302
+   "order": 303
   },
   {
    "slug": "regular-saver-what-8-percent-actually-pays-uk.html",
@@ -2424,7 +2432,7 @@
    "done": "",
    "title": "An eight per cent regular saver pays about four, and it is not a trick",
    "reason": "checked September 2026",
-   "order": 303
+   "order": 304
   },
   {
    "slug": "section-75-vs-chargeback-uk.html",
@@ -2432,7 +2440,7 @@
    "done": "",
    "title": "Put the deposit on a credit card and the whole holiday is protected",
    "reason": "checked September 2026",
-   "order": 304
+   "order": 305
   },
   {
    "slug": "selling-an-online-course-uk-costs.html",
@@ -2440,7 +2448,7 @@
    "done": "",
    "title": "A recorded course and a live class are different things to HMRC",
    "reason": "checked September 2026",
-   "order": 305
+   "order": 306
   },
   {
    "slug": "settlement-agreement-what-it-is-worth-uk.html",
@@ -2448,7 +2456,7 @@
    "done": "",
    "title": "A settlement offer is three numbers pretending to be one",
    "reason": "checked September 2026",
-   "order": 306
+   "order": 307
   },
   {
    "slug": "small-pension-pots-consolidation-what-it-means-uk.html",
@@ -2456,7 +2464,7 @@
    "done": "",
    "title": "Thirteen million pots under a thousand pounds, and one of them is probably yours",
    "reason": "checked September 2026",
-   "order": 307
+   "order": 308
   },
   {
    "slug": "appliance-energy-label-rescaled-what-c-actually-means-uk.html",
@@ -2464,7 +2472,7 @@
    "done": "",
    "title": "The Letter on the Energy Label Is Not the Number That Pays Your Bill",
    "reason": "checked September 2026",
-   "order": 308
+   "order": 309
   },
   {
    "slug": "bailiff-powers-what-they-can-and-cannot-do-uk.html",
@@ -2472,7 +2480,7 @@
    "done": "",
    "title": "The 14 days between a bailiff letter and a bailiff knock are worth hundreds of pounds",
    "reason": "checked September 2026",
-   "order": 309
+   "order": 310
   },
   {
    "slug": "bathroom-refit-what-it-actually-costs-uk.html",
@@ -2480,7 +2488,7 @@
    "done": "",
    "title": "You Are Budgeting for the Bath. The Bill Is Mostly People",
    "reason": "checked September 2026",
-   "order": 310
+   "order": 311
   },
   {
    "slug": "boiler-flow-temperature-60-degrees-saving-uk.html",
@@ -2488,7 +2496,7 @@
    "done": "",
    "title": "The Cheapest Saving in Your House Is a Dial You Already Own",
    "reason": "checked September 2026",
-   "order": 311
+   "order": 312
   },
   {
    "slug": "child-maintenance-service-fees-uk.html",
@@ -2496,7 +2504,7 @@
    "done": "",
    "title": "The Child Maintenance Service charges both parents, and the money goes to neither of them",
    "reason": "checked September 2026",
-   "order": 312
+   "order": 313
   },
   {
    "slug": "connect-to-work-is-it-worth-joining-uk.html",
@@ -2504,7 +2512,7 @@
    "done": "",
    "title": "25,000 People Joined Connect to Work. 4,100 Got a Job. That Ratio Needs Explaining Before You Judge It",
    "reason": "checked September 2026",
-   "order": 313
+   "order": 314
   },
   {
    "slug": "consumer-rights-act-30-day-refund-rule-uk.html",
@@ -2512,7 +2520,7 @@
    "done": "",
    "title": "The Shop Policy Saying 14 Days for Faulty Goods Is Not Binding on You",
    "reason": "checked September 2026",
-   "order": 314
+   "order": 315
   },
   {
    "slug": "damp-survey-what-it-costs-and-what-it-misses-uk.html",
@@ -2520,7 +2528,7 @@
    "done": "",
    "title": "Who Pays the Surveyor Decides What the Survey Finds",
    "reason": "checked September 2026",
-   "order": 315
+   "order": 316
   },
   {
    "slug": "dbs-check-cost-uk-what-it-costs-and-who-needs-one.html",
@@ -2528,7 +2536,7 @@
    "done": "",
    "title": "Five Clients, One Certificate: the DBS Rule That Stops You Paying Five Times",
    "reason": "checked September 2026",
-   "order": 316
+   "order": 317
   },
   {
    "slug": "debt-relief-order-vs-bankruptcy-uk.html",
@@ -2536,7 +2544,7 @@
    "done": "",
    "title": "One of These Costs Nothing and the Other Costs £680. That Is Not the Part That Decides It",
    "reason": "checked September 2026",
-   "order": 317
+   "order": 318
   },
   {
    "slug": "disabled-bus-pass-time-limits-lifted-april-2027-uk.html",
@@ -2544,7 +2552,7 @@
    "done": "",
    "title": "The Bus Pass in Your Pocket Does Not Work Before 9:30am. From April 2027 It Will",
    "reason": "checked September 2026",
-   "order": 318
+   "order": 319
   },
   {
    "slug": "driveway-resurface-vs-repair-cost-uk.html",
@@ -2552,7 +2560,7 @@
    "done": "",
    "title": "It Is Not the Size of Your Driveway. It Is Where the Water Goes",
    "reason": "checked September 2026",
-   "order": 319
+   "order": 320
   },
   {
    "slug": "fostering-allowance-and-tax-relief-uk-what-it-pays.html",
@@ -2560,7 +2568,7 @@
    "done": "",
    "title": "Fostering is self employment on paper, and the tax threshold is set so high most carers never touch it",
    "reason": "checked September 2026",
-   "order": 320
+   "order": 321
   },
   {
    "slug": "ghic-card-free-what-it-covers-uk.html",
@@ -2568,7 +2576,7 @@
    "done": "",
    "title": "The Card Is Free, the Form Takes Ten Minutes, and the Fee You Were Charged Was for Nothing",
    "reason": "checked September 2026",
-   "order": 321
+   "order": 322
   },
   {
    "slug": "guttering-replace-or-clean-cost-uk.html",
@@ -2576,7 +2584,7 @@
    "done": "",
    "title": "A Gutter Clean Is the Cheapest Thing You Can Buy for a House",
    "reason": "checked September 2026",
-   "order": 322
+   "order": 323
   },
   {
    "slug": "home-food-business-registration-uk-what-it-takes.html",
@@ -2584,7 +2592,7 @@
    "done": "",
    "title": "The 28 Days You Have to Serve Before Your First Order, and the Registration Nobody Budgets For",
    "reason": "checked September 2026",
-   "order": 323
+   "order": 324
   },
   {
    "slug": "hot-water-cylinder-timer-vs-always-on-uk.html",
@@ -2592,7 +2600,7 @@
    "done": "",
    "title": "The Hot Water Argument Is About One Number, and It Is Printed on Your Tank",
    "reason": "checked September 2026",
-   "order": 324
+   "order": 325
   },
   {
    "slug": "jury-service-pay-uk-what-you-lose.html",
@@ -2600,7 +2608,7 @@
    "done": "",
    "title": "A Full Week on a Jury Pays £324.75. The Same Week on the Minimum Wage Pays £476.63",
    "reason": "checked September 2026",
-   "order": 325
+   "order": 326
   },
   {
    "slug": "lasting-power-of-attorney-cost-uk.html",
@@ -2608,7 +2616,7 @@
    "done": "",
    "title": "The Government Charges £92 to Register a Power of Attorney. Everything Else You Are Quoted Is Somebody Else's Fee",
    "reason": "checked September 2026",
-   "order": 326
+   "order": 327
   },
   {
    "slug": "loft-boarding-without-squashing-insulation-cost-uk.html",
@@ -2616,7 +2624,7 @@
    "done": "",
    "title": "Raised Loft Boarding Is Storage. It Is Not an Energy Improvement",
    "reason": "checked September 2026",
-   "order": 327
+   "order": 328
   },
   {
    "slug": "mattress-replace-or-topper-uk-what-it-costs.html",
@@ -2624,7 +2632,7 @@
    "done": "",
    "title": "A Topper Fixes Comfort. It Cannot Fix Support. That Is the Whole Decision",
    "reason": "checked September 2026",
-   "order": 328
+   "order": 329
   },
   {
    "slug": "new-roof-vs-repair-cost-uk.html",
@@ -2632,7 +2640,7 @@
    "done": "",
    "title": "Stop Comparing £800 Against £9,000. Divide Both by the Years They Buy",
    "reason": "checked September 2026",
-   "order": 329
+   "order": 330
   },
   {
    "slug": "nhs-dental-charges-who-gets-free-treatment-uk.html",
@@ -2640,7 +2648,7 @@
    "done": "",
    "title": "The NHS Page That Tells You What a Dentist Costs Quotes Two Different Prices for the Same Treatment",
    "reason": "checked September 2026",
-   "order": 330
+   "order": 331
   },
   {
    "slug": "oil-boiler-vs-heat-pump-running-cost-uk.html",
@@ -2648,7 +2656,7 @@
    "done": "",
    "title": "Nobody Told Oil Heated Homes They Get an Extra £1,500",
    "reason": "checked September 2026",
-   "order": 331
+   "order": 332
   },
   {
    "slug": "opening-shift-retail-work-experience-18-to-24-uk.html",
@@ -2656,7 +2664,7 @@
    "done": "",
    "title": "Retail Says It Will Create 100,000 Jobs for Young People. The Thing Being Launched Today Is 11,000 Unpaid Placements",
    "reason": "checked September 2026",
-   "order": 332
+   "order": 333
   },
   {
    "slug": "pip-review-gap-three-years-what-changed-uk.html",
@@ -2664,7 +2672,7 @@
    "done": "",
    "title": "Your PIP Review Could Come Every Nine Months. It Is Moving to Three Years, and That Cuts Both Ways",
    "reason": "checked September 2026",
-   "order": 333
+   "order": 334
   },
   {
    "slug": "pothole-damage-claim-council-uk.html",
@@ -2672,7 +2680,7 @@
    "done": "",
    "title": "Your pothole claim is decided by a filing cabinet, not by your tyre",
    "reason": "checked September 2026",
-   "order": 334
+   "order": 335
   },
   {
    "slug": "radiator-covers-heat-loss-uk.html",
@@ -2680,7 +2688,7 @@
    "done": "",
    "title": "Everyone Has the Radiator Cover Arithmetic Wrong, Including the People Selling Radiators",
    "reason": "checked September 2026",
-   "order": 335
+   "order": 336
   },
   {
    "slug": "rewire-a-house-cost-uk.html",
@@ -2688,7 +2696,7 @@
    "done": "",
    "title": "The Cheapest Rewire Quote Is Usually the One That Costs You Most",
    "reason": "checked September 2026",
-   "order": 336
+   "order": 337
   },
   {
    "slug": "septic-tank-rules-and-emptying-cost-uk.html",
@@ -2696,7 +2704,7 @@
    "done": "",
    "title": "Most Septic Tank Owners Have Never Read the Rules That Govern Them",
    "reason": "checked September 2026",
-   "order": 337
+   "order": 338
   },
   {
    "slug": "small-claims-court-cost-uk.html",
@@ -2704,7 +2712,7 @@
    "done": "",
    "title": "Chasing £280 Costs £35. Leaving One Box Empty on the Form Costs £10,000",
    "reason": "checked September 2026",
-   "order": 338
+   "order": 339
   },
   {
    "slug": "stairlift-cost-uk-what-you-actually-pay.html",
@@ -2712,7 +2720,7 @@
    "done": "",
    "title": "Apply Before You Buy. That One Rule Is Worth More Than Any Discount",
    "reason": "checked September 2026",
-   "order": 339
+   "order": 340
   },
   {
    "slug": "unpaid-parental-leave-18-weeks-uk.html",
@@ -2720,7 +2728,7 @@
    "done": "",
    "title": "Eighteen weeks per child, and the service requirement everyone still quotes is not on the page any more",
    "reason": "checked September 2026",
-   "order": 340
+   "order": 341
   },
   {
    "slug": "asbestos-survey-and-removal-cost-uk.html",
@@ -2728,7 +2736,7 @@
    "done": "",
    "title": "The Expensive Part Of Asbestos Is Not The Removal. It Is The Fourteen Days You Cannot Work",
    "reason": "checked September 2026",
-   "order": 341
+   "order": 342
   },
   {
    "slug": "blocked-drain-cost-who-pays-uk.html",
@@ -2736,7 +2744,7 @@
    "done": "",
    "title": "Your Water Company Will Clear That Blockage For Nothing. Most People Pay 150 Pounds Instead",
    "reason": "checked September 2026",
-   "order": 342
+   "order": 343
   },
   {
    "slug": "blue-badge-application-uk-what-it-takes.html",
@@ -2744,7 +2752,7 @@
    "done": "",
    "title": "A Blue Badge Costs Up to 10 Pounds. The Expensive Part Is the Twelve Weeks",
    "reason": "checked September 2026",
-   "order": 343
+   "order": 344
   },
   {
    "slug": "boiler-service-cost-uk-what-you-actually-get.html",
@@ -2752,7 +2760,7 @@
    "done": "",
    "title": "You Booked A Boiler Service. What Turned Up Might Have Been A Safety Check, And They Are Not The Same",
    "reason": "checked September 2026",
-   "order": 344
+   "order": 345
   },
   {
    "slug": "chimney-sweep-cost-and-insurance-rules-uk.html",
@@ -2760,7 +2768,7 @@
    "done": "",
    "title": "A Chimney Sweep Kit Pays For Itself In One Winter. Read Your Policy Before You Buy One",
    "reason": "checked September 2026",
-   "order": 345
+   "order": 346
   },
   {
    "slug": "council-tax-single-person-discount-uk.html",
@@ -2768,7 +2776,7 @@
    "done": "",
    "title": "The 25 Per Cent Council Tax Discount Is Not Only for People Who Live Alone",
    "reason": "checked September 2026",
-   "order": 346
+   "order": 347
   },
   {
    "slug": "deed-of-variation-inheritance-uk.html",
@@ -2776,7 +2784,7 @@
    "done": "",
    "title": "You Can Change Who Inherits After Someone Has Died. The Window Is Two Years and the Name Is Misleading",
    "reason": "checked September 2026",
-   "order": 347
+   "order": 348
   },
   {
    "slug": "electric-gate-and-driveway-security-cost-uk.html",
@@ -2784,7 +2792,7 @@
    "done": "",
    "title": "Fit An Automation Kit To Your Own Gate And The Law Says You Just Manufactured A Machine",
    "reason": "checked September 2026",
-   "order": 348
+   "order": 349
   },
   {
    "slug": "flat-roof-replacement-cost-uk.html",
@@ -2792,7 +2800,7 @@
    "done": "",
    "title": "Two Flat Roof Quotes, 500 Pounds Apart. Divide Both By The Years And The Cheap One Loses",
    "reason": "checked September 2026",
-   "order": 349
+   "order": 350
   },
   {
    "slug": "funeral-costs-uk-what-you-actually-pay.html",
@@ -2800,7 +2808,7 @@
    "done": "",
    "title": "A Funeral Bill Has Two Halves, and Only One of Them Moves When You Shop Around",
    "reason": "checked September 2026",
-   "order": 350
+   "order": 351
   },
   {
    "slug": "garage-conversion-cost-uk.html",
@@ -2808,7 +2816,7 @@
    "done": "",
    "title": "Two Ways To Get One More Room. One Of Them Costs Four Times As Much Per Square Metre",
    "reason": "checked September 2026",
-   "order": 351
+   "order": 352
   },
   {
    "slug": "jury-service-pay-uk-what-you-actually-get.html",
@@ -2816,7 +2824,7 @@
    "done": "",
    "title": "Jury Service Does Not Pay You. It Reimburses You, Up to 64.95 Pounds a Day",
    "reason": "checked September 2026",
-   "order": 352
+   "order": 353
   },
   {
    "slug": "probate-cost-uk-what-it-takes.html",
@@ -2824,7 +2832,7 @@
    "done": "",
    "title": "Probate Costs 526 Pounds, or Nothing at All, and the Line Between the Two Is 5,000 Pounds",
    "reason": "checked September 2026",
-   "order": 353
+   "order": 354
   },
   {
    "slug": "rainwater-harvesting-worth-it-uk.html",
@@ -2832,7 +2840,7 @@
    "done": "",
    "title": "Your Roof Catches 80,000 Litres A Year. The Reason That Is Not A Saving Is The Interesting Part",
    "reason": "checked September 2026",
-   "order": 354
+   "order": 355
   },
   {
    "slug": "stair-carpet-replacement-cost-uk.html",
@@ -2840,7 +2848,7 @@
    "done": "",
    "title": "The Stairs Wear Out Four Times Faster Than The Landing. Price Them That Way",
    "reason": "checked September 2026",
-   "order": 355
+   "order": 356
   },
   {
    "slug": "tenancy-deposit-protection-what-you-get-back-uk.html",
@@ -2848,7 +2856,7 @@
    "done": "",
    "title": "Your Landlord Had Thirty Days. If They Missed It, the Court Can Order Three Times the Deposit",
    "reason": "checked September 2026",
-   "order": 356
+   "order": 357
   },
   {
    "slug": "underfloor-heating-retrofit-cost-uk.html",
@@ -2856,7 +2864,7 @@
    "done": "",
    "title": "Underfloor Heating Does Not Save You Money. A Lower Flow Temperature Does, And That Is The Bit To Buy",
    "reason": "checked September 2026",
-   "order": 357
+   "order": 358
   },
   {
    "slug": "wills-cost-uk-solicitor-vs-diy.html",
@@ -2864,7 +2872,7 @@
    "done": "",
    "title": "A Will Kit and a Solicitor Pass the Same Legal Test, So What Is the Extra Money Actually For",
    "reason": "checked September 2026",
-   "order": 358
+   "order": 359
   },
   {
    "slug": "affiliate-content-refresh-vs-new-posts-uk.html",
@@ -2872,7 +2880,7 @@
    "done": "",
    "title": "Your Next Free Hour: Fix the Old Post or Write a New One?",
    "reason": "checked September 2026",
-   "order": 359
+   "order": 360
   },
   {
    "slug": "affiliate-link-cloaking-uk-worth-it.html",
@@ -2880,7 +2888,7 @@
    "done": "",
    "title": "Should You Cloak Your Affiliate Links? Read the Three Clauses First",
    "reason": "checked September 2026",
-   "order": 360
+   "order": 361
   },
   {
    "slug": "artificial-grass-vs-turf-cost-uk.html",
@@ -2888,21 +2896,13 @@
    "done": "",
    "title": "Artificial Grass Does Not Compete With Your Lawn. It Competes With Your Gardener",
    "reason": "checked September 2026",
-   "order": 361
+   "order": 362
   },
   {
    "slug": "attachment-of-earnings-what-it-does-to-your-pay-uk.html",
    "status": "todo",
    "done": "",
    "title": "There Is a Floor Under Your Wages, and Most People Facing an Attachment of Earnings Order Do Not Know It Exists",
-   "reason": "checked September 2026",
-   "order": 362
-  },
-  {
-   "slug": "bank-rate-3-75-percent-what-your-savings-should-do-uk.html",
-   "status": "todo",
-   "done": "",
-   "title": "Your Savings Rate Is Not Waiting for the Bank of England, and Neither Should You Be",
    "reason": "checked September 2026",
    "order": 363
   },

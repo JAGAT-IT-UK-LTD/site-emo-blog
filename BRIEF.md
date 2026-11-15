@@ -13,6 +13,9 @@ earningmoneyonline.co.uk, a plain HTML blog about earning money online (456 arti
 - 9 Nov 2026: six articles whose dates had passed now say what happened: Budget 28 Oct 2026 (Chancellor John Healey; savings and property income tax 24/44/49% from April 2027; trading allowance £3,000; National Living Wage £13.21), Bank Rate 5 Nov 2026 (raised to 4%, vote 8 to 1, next decision 17 Dec), Bank Rate 17 Sep (held at 3.75%), two mortgage pieces, September CPI 3.5% and the April 2027 uprating. They are marked done in `data/improve-queue.json`.
 - `sitemap.xml` was missing 26 older articles as well; `tools/sync-sitemap-feed.py` adds every article and rebuilds `feed.xml` (newest 30). `feed.xml` had not changed since 21 Aug.
 - Older live articles still use £4.1758 for Severn Trent water (water butt, low flow shower head and others). The nightly improvement should correct them to £4.0945.
+- 15 Nov 2026: R asked for 10 trending articles on money tricks and new kinds of income, on top of the nightly run. Published: trading allowance £3,000, savings tax 24%, landlord property tax 24%, £100 Household Energy Payment, paid to use less electricity, Black Friday fake discounts, phone trade in vs resale, paid to train AI, UGC creator, renting out your car (only Turo and Hiyacar still run in the UK). Cash ISA article rewritten: the £12,000 cut was scrapped at Budget 2026, the limit stays £20,000. The three Severn Trent articles now use £4.0945.
+- Out of date and moved to the front of the improve queue: `side-hustle-tax-rules-uk`, `autumn-budget-2026-uk`, `bank-rate-3-75-percent-what-your-savings-should-do-uk`.
+- Some older covers have alt text that does not match the photo (Pexels 3943729 is euro notes, not a smart meter; 1370704 is San Francisco houses). The nightly run should fix alt text when it meets them.
 - `data/articles.json` is stale (51 entries, 16 Aug 2026). The preview builds its own index from the article files.
 
 ## Why new articles stopped (found 9 Nov 2026)
@@ -88,4 +91,4 @@ The Claude session that owns this repo is named "EarningMoneyOnline (site-emo-bl
 ## Rules
 Read `CLAUDE.md`, `AI.md` and `README.md` first. Rules source is JAGAT-IT-UK-LTD/ai-memory `CHARTER.md`.
 
-Last updated: 9 Nov 2026 late, Claude Opus 5.5 (article restart session).
+Last updated: 15 Nov 2026, Claude Opus 5.5 (article restart session).
