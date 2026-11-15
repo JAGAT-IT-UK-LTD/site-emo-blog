@@ -61,6 +61,8 @@ Claude Code, GitHub Copilot; last push 2026-10-15
 2026-11-06, Claude Opus 5.5: six docs in `docs/`, Liquid Glass design preview at https://earningmoneyonline.co.uk/preview/ (noindex), built by `tools/build-preview.py`. 9 Nov: new design live on every page (navy indigo, articles as a book page in Literata), built by tools/build-preview.py --live.
 
 2026-11-09 late, Claude Opus 5.5: 8 September articles fact checked and published, 6 dated articles updated with the real outcome (Budget 28 Oct, Bank Rate 5 Nov and 17 Sep, mortgages, September CPI). New `tools/sync-sitemap-feed.py` keeps sitemap and feed complete. New article writing restarted from the cloud: routine `trig_01G9cJwhUBfKYaaWwpkwoM87`, Mon, Wed and Fri 07:00, rules in `docs/WRITE-RULES.md`, log in `docs/WRITE-LOG.md`.
+
+2026-11-15, Claude Opus 5.5: 10 trending articles (money tricks and new kinds of income) published on R's ask, cash ISA article rewritten (£12,000 cut scrapped), three water articles corrected, three out of date articles moved to the front of the improve queue.
 2026-11-09 night, Claude scheduled task emo-nightly-improve: 10 dated articles improved (SEO title and description, answer first, FAQ, internal links, every figure checked again, outcomes written in). Queue: 16 of 456 done, `python3 -I tools/improve.py status`.
 
 2026-11-11, Claude scheduled task emo-nightly-improve: 10 more articles improved and fact checked (telecoms charter, UC health element, winter fuel, Chrome extensions, site reputation, pensions dashboards, Self Assessment registration, Renters Rights Act, school uniform, working from home relief). Queue: 26 of 456 done.
