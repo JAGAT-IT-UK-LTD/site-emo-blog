@@ -71,6 +71,8 @@ Claude Code, GitHub Copilot; last push 2026-10-15
 
 2026-11-14, Claude scheduled task emo-nightly-improve: 10 more articles improved and fact checked (affiliate marketing for beginners, AI Overviews traffic, Amazon commission rates, Amazon earnings, high ticket trap, Amazon Associates rules, budget smartphone, car detailing, cut energy bills, declutter and sell). Queue: 46 of 456 done.
 
+2026-11-15, Claude Opus 5.5: 10 trending articles (money tricks and new kinds of income) published on R's ask, cash ISA article rewritten (the £12,000 cut was scrapped), three water articles corrected, three out of date articles moved to the front of the improve queue.
+
 ## Competitors
 TBC
 
