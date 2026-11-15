@@ -3,6 +3,14 @@ Allow: /
 Disallow: /studio/
 Disallow: /leadgen/
 Disallow: /preview/
+# Repo files that are not pages for readers
+Disallow: /docs/
+Disallow: /tools/
+Disallow: /data/
+Disallow: /project/
+Disallow: /.github/
+Disallow: /*.md$
+Disallow: /*.py$
 
 # Crawl-friendly: no rate limiting needed, static site
 Sitemap: https://earningmoneyonline.co.uk/sitemap.xml

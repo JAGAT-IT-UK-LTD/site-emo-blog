@@ -1,0 +1,30 @@
+# EarningMoneyOnline
+
+> Practical UK money guides with real figures, checked against official sources such as GOV.UK, HMRC, Ofgem and the Bank of England. Make money, save money, side hustles, careers and buying decisions. Every guide lists its sources and the month its figures were checked. EarningMoneyOnline is a trading name of JAGAT IT UK LTD.
+
+## Tools
+- [UK money calculators](https://earningmoneyonline.co.uk/calculators.html): side hustle tax with the trading allowance, savings tax before and after April 2027, payback on any purchase, water meter costs
+- [UK money dates](https://earningmoneyonline.co.uk/money-dates.html): the dates that change UK household money from November 2026 to April 2027
+
+## Guides by topic
+- [Save Money](https://earningmoneyonline.co.uk/categories/save-money.html): bills, energy, water, savings and buying decisions
+- [Make Money](https://earningmoneyonline.co.uk/categories/make-money.html): earning online, property income, dividends
+- [Side Hustles](https://earningmoneyonline.co.uk/categories/side-hustles.html): real costs, UK rules and tax for side income
+- [Work and Career](https://earningmoneyonline.co.uk/categories/work-career.html): pay, employment rights and jobs
+- [Tools and Reviews](https://earningmoneyonline.co.uk/categories/tools-reviews.html): what to buy and what it really costs to run
+- [UK Update](https://earningmoneyonline.co.uk/categories/uk-update.html): rule changes, deadlines and official figures
+- [Affiliate Marketing](https://earningmoneyonline.co.uk/categories/affiliate-marketing.html): Amazon Associates and networks, with honest earnings arithmetic
+- [AI Tools](https://earningmoneyonline.co.uk/categories/ai-tools.html): how people earn with AI in the UK
+
+## Recent guides
+- [Trading allowance £3,000 from April 2027](https://earningmoneyonline.co.uk/articles/trading-allowance-3000-april-2027-side-hustle-uk.html)
+- [Savings tax rises to 24% in April 2027: what to do now](https://earningmoneyonline.co.uk/articles/savings-tax-24-percent-april-2027-what-to-do-now-uk.html)
+- [£100 Household Energy Payment: who gets it and when](https://earningmoneyonline.co.uk/articles/household-energy-payment-100-who-gets-it-uk.html)
+- [Self Assessment 31 January 2027: what you pay and when](https://earningmoneyonline.co.uk/articles/self-assessment-31-january-2027-payment-on-account-uk.html)
+- [Cash ISA rules for 2027](https://earningmoneyonline.co.uk/articles/cash-isa-changes-2027-uk.html)
+
+## About
+- [About the site and how guides are checked](https://earningmoneyonline.co.uk/about.html)
+- [Affiliate disclosure](https://earningmoneyonline.co.uk/affiliate-disclosure.html)
+- [Contact and company details](https://earningmoneyonline.co.uk/contact.html)
+- [Full list of guides](https://earningmoneyonline.co.uk/sitemap.xml)

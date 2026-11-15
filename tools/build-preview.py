@@ -40,7 +40,7 @@ PREVIEW_ARTICLES = [
     "skilled-worker-visa-modern-slavery-rule-uk.html",
 ]
 STATIC_PAGES = ["about.html", "contact.html", "privacy-policy.html", "affiliate-disclosure.html",
-                "privacy/index.html", "terms/index.html"]
+                "privacy/index.html", "terms/index.html", "calculators.html", "money-dates.html"]
 
 CATS = [  # (tag on the article, slug, short name, icon, page title, one line)
     ("Save Money", "save-money", "Save Money", "wallet", "Save Money",
@@ -63,6 +63,8 @@ CATS = [  # (tag on the article, slug, short name, icon, page title, one line)
 TAG2SLUG = {c[0]: c[1] for c in CATS}
 
 ICONS = {
+    "calc": '<rect x="5" y="3" width="14" height="18" rx="2.5"/><path d="M8 7h8M8 11h2M12 11h2M16 11h0M8 15h2M12 15h2M8 18h2M12 18h2M16 15v3"/>',
+    "cal": '<rect x="3" y="5" width="18" height="16" rx="2.5"/><path d="M3 10h18M8 3v4M16 3v4M7.5 14h2M11 14h2M14.5 14h2M7.5 17.5h2M11 17.5h2"/>',
     "wallet": '<path d="M3 7h15a3 3 0 0 1 3 3v7a3 3 0 0 1-3 3H6a3 3 0 0 1-3-3V7z"/><path d="M3 7l12-3v3"/><circle cx="16.5" cy="13.5" r="1.2"/>',
     "trend": '<path d="M3 17l6-6 4 4 8-8"/><path d="M15 7h6v6"/>',
     "case": '<rect x="3" y="7" width="18" height="13" rx="2.5"/><path d="M9 7V5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2M3 13h18"/>',
@@ -319,13 +321,12 @@ def footer():
         '<button type="button" data-t="indigo" aria-pressed="false">A</button>'
         '<button type="button" data-t="green" aria-pressed="false">B</button></div>\n')
     return """<footer class="ft%s"><div class="w">
-<nav aria-label="Site"><a href="/about.html">About</a><a href="/contact.html">Contact</a><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a><a href="/affiliate-disclosure.html">Affiliate disclosure</a></nav>
-<p>%s</p>
-<p>General guidance, not financial advice. &copy; %d</p>
+<nav aria-label="Site"><a href="/calculators.html">Calculators</a><a href="/money-dates.html">Money dates</a><a href="/about.html">About</a><a href="/contact.html">Contact</a><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a><a href="/affiliate-disclosure.html">Affiliate disclosure</a></nav>
+<p>&copy; %d EarningMoneyOnline. A trading name of JAGAT IT UK LTD. General guidance, not financial advice.</p>
 </div></footer>
 %s</body>
 </html>
-""" % (" live" if LIVE else "", E(TRADING), date.today().year, badge)
+""" % (" live" if LIVE else "", date.today().year, badge)
 
 
 def card(a):
@@ -394,6 +395,14 @@ def homepage(idx):
 <div class="tiles">%s</div>
 </div></section>
 <section class="c"><div class="w">
+<h2>Do the sums yourself</h2>
+<p class="sub">Free tools, figures from GOV.UK and Ofgem.</p>
+<div class="tiles">
+<a class="tile lit" href="%scalculators.html"><span class="ic">%s</span><b>Money calculators</b><span>Side hustle tax, savings tax, payback</span></a>
+<a class="tile lit" href="%smoney-dates.html"><span class="ic">%s</span><b>UK money dates</b><span>Nov 2026 to Apr 2027</span></a>
+</div>
+</div></section>
+<section class="c"><div class="w">
 <h2>Latest guides</h2>
 <p class="sub">Newest first.</p>
 <div class="cards">%s</div>
@@ -408,7 +417,7 @@ def homepage(idx):
 """ % (header(), n, stage, n,
        art_href("energy-price-cap-october-2026.html"), art_href("side-hustle-tax-rules-uk.html"),
        art_href("marriage-allowance-252-a-year-who-can-claim-uk.html"),
-       tiles, latest, BASE, faq_html)
+       tiles, BASE, icon("calc"), BASE, icon("cal"), latest, BASE, faq_html)
     if LIVE:
         meta = head_meta(read("index.html"))
         write("index.html", head(meta, ld_json(meta)) + body + footer())
