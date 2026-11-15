@@ -73,6 +73,8 @@ Claude Code, GitHub Copilot; last push 2026-10-15
 
 2026-11-15, Claude Opus 5.5: 10 trending articles (money tricks and new kinds of income) published on R's ask, cash ISA article rewritten (the £12,000 cut was scrapped), three water articles corrected, three out of date articles moved to the front of the improve queue.
 
+2026-11-15 later, Claude Opus 5.5: calculators page, UK money dates page, one line footer on every page (full company details on Contact, Terms, Privacy), llms.txt, robots.txt keeps repo files out of search.
+
 ## Competitors
 TBC
 
