@@ -6,8 +6,16 @@
   <atom:link href="https://earningmoneyonline.co.uk/feed.xml" rel="self" type="application/rss+xml" />
   <description>Practical UK money guides with real figures, honest maths and named sources. Make money, save money, side hustles, careers and buying decisions.</description>
   <language>en-gb</language>
-  <lastBuildDate>Sun, 15 Nov 2026 14:15:54 GMT</lastBuildDate>
+  <lastBuildDate>Mon, 16 Nov 2026 07:15:23 GMT</lastBuildDate>
   <ttl>1440</ttl>
+  <item>
+    <title>New subscription rules are due on 1 January 2027: what changes when you cancel or a plan renews</title>
+    <link>https://earningmoneyonline.co.uk/articles/subscription-cancellation-rules-1-january-2027-uk.html</link>
+    <guid isPermaLink="true">https://earningmoneyonline.co.uk/articles/subscription-cancellation-rules-1-january-2027-uk.html</guid>
+    <pubDate>Mon, 16 Nov 2026 07:00:00 +0000</pubDate>
+    <category>UK Update</category>
+    <description>New UK subscription rules are due 1 January 2027: a 14 day renewal cooling off, renewal reminders and online cancellation. It is still draft law. Here is the detail.</description>
+  </item>
   <item>
     <title>UGC Creator UK: What Brands Actually Pay Per Video</title>
     <link>https://earningmoneyonline.co.uk/articles/ugc-creator-uk-what-brands-pay.html</link>
@@ -239,14 +247,6 @@
     <pubDate>Sat, 19 Sep 2026 07:00:00 +0000</pubDate>
     <category>Tools &amp; Reviews</category>
     <description>A UK trade mark costs £205 online for one class plus £60 a class, and lasts 10 years. Right Start costs more, not less. Full fee table, the classes trap, and the rebrand cost you are insuring against.</description>
-  </item>
-  <item>
-    <title>Four Letters On Your Payslip Decide Whether You Are Overpaying Tax</title>
-    <link>https://earningmoneyonline.co.uk/articles/tax-code-wrong-how-to-fix-uk.html</link>
-    <guid isPermaLink="true">https://earningmoneyonline.co.uk/articles/tax-code-wrong-how-to-fix-uk.html</guid>
-    <pubDate>Sat, 19 Sep 2026 07:00:00 +0000</pubDate>
-    <category>Work &amp; Career</category>
-    <description>A tax code ending W1, M1, X or NONCUM is an emergency code, and HMRC says it can take up to 35 days from starting a job to fix. What the letters mean, what a P800 is, and the one case where an emergency code is completely normal and you should leave it alone.</description>
   </item>
 </channel>
 </rss>
