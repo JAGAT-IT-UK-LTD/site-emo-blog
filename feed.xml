@@ -6,8 +6,16 @@
   <atom:link href="https://earningmoneyonline.co.uk/feed.xml" rel="self" type="application/rss+xml" />
   <description>Practical UK money guides with real figures, honest maths and named sources. Make money, save money, side hustles, careers and buying decisions.</description>
   <language>en-gb</language>
-  <lastBuildDate>Mon, 16 Nov 2026 07:15:23 GMT</lastBuildDate>
+  <lastBuildDate>Wed, 18 Nov 2026 07:10:39 GMT</lastBuildDate>
   <ttl>1440</ttl>
+  <item>
+    <title>Low Standing Charge Tariff UK: Who Actually Saves, and Who Pays More</title>
+    <link>https://earningmoneyonline.co.uk/articles/low-standing-charge-tariff-worth-it-uk.html</link>
+    <guid isPermaLink="true">https://earningmoneyonline.co.uk/articles/low-standing-charge-tariff-worth-it-uk.html</guid>
+    <pubDate>Wed, 18 Nov 2026 07:00:00 +0000</pubDate>
+    <category>Save Money</category>
+    <description>A low standing charge tariff cuts about £150 a year in daily charges but raises unit rates. Here is the break even, with sums, for UK homes in 2026.</description>
+  </item>
   <item>
     <title>New subscription rules are due on 1 January 2027: what changes when you cancel or a plan renews</title>
     <link>https://earningmoneyonline.co.uk/articles/subscription-cancellation-rules-1-january-2027-uk.html</link>
@@ -239,14 +247,6 @@
     <pubDate>Sat, 19 Sep 2026 07:00:00 +0000</pubDate>
     <category>Affiliate Marketing</category>
     <description>Twitch&#x27;s own help page now lists four Affiliate requirements: 25 followers, 4 hours streamed, 4 different days and an average of 3 viewers. The old 50 followers and 500 minutes figures are everywhere and they are wrong. What Affiliate and Partner actually give you, and the split Twitch will not print.</description>
-  </item>
-  <item>
-    <title>£20.50 a Year to Keep Your Own Name, or Several Thousand to Change It</title>
-    <link>https://earningmoneyonline.co.uk/articles/trademark-registration-cost-uk.html</link>
-    <guid isPermaLink="true">https://earningmoneyonline.co.uk/articles/trademark-registration-cost-uk.html</guid>
-    <pubDate>Sat, 19 Sep 2026 07:00:00 +0000</pubDate>
-    <category>Tools &amp; Reviews</category>
-    <description>A UK trade mark costs £205 online for one class plus £60 a class, and lasts 10 years. Right Start costs more, not less. Full fee table, the classes trap, and the rebrand cost you are insuring against.</description>
   </item>
 </channel>
 </rss>
