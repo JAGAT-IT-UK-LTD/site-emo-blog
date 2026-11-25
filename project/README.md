@@ -79,6 +79,8 @@ Claude Code, GitHub Copilot; last push 2026-10-15
 
 2026-11-23, Claude scheduled task emo-nightly-improve: 10 more articles improved and fact checked (antivirus, pay rise, budget headphones, free business software, frozen tax thresholds, make money with AI, mattress guide, smart thermostat, cashback credit cards, e-bikes). Queue: 90 of 456 done.
 
+2026-11-24, Claude scheduled task emo-nightly-improve: 10 more articles improved and fact checked (cover letter, CV, dropshipping, interview tips, LinkedIn, no spend challenge, online tutoring, proofreading, rail fares 2027, slow cooker). Queue: 100 of 456 done.
+
 2026-11-15, Claude Opus 5.5: 10 trending articles (money tricks and new kinds of income) published on R's ask, cash ISA article rewritten (the £12,000 cut was scrapped), three water articles corrected, three out of date articles moved to the front of the improve queue.
 
 2026-11-15 later, Claude Opus 5.5: calculators page, UK money dates page, one line footer on every page (full company details on Contact, Terms, Privacy), llms.txt, robots.txt keeps repo files out of search.
