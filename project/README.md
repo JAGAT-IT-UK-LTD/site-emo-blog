@@ -85,6 +85,8 @@ Claude Code, GitHub Copilot; last push 2026-10-15
 
 2026-11-26, Claude scheduled task emo-nightly-improve: 10 more articles improved and fact checked (switch and save bills, VPN, YouTube earnings, Companies House ID verification, food delivery pay, affiliate site cost, driveway rental, UK jobs market, broadband price rises, dog walking). Queue: 120 of 456 done.
 
+2026-11-28, Claude scheduled task emo-nightly-improve: 10 more articles improved and fact checked (HMRC crypto reporting, draught proofing, car insurance ABI Q3, dishwasher running cost, TV running cost, eBay seller fees, Child Benefit 16 to 19, fire and rehire now March 2027, heat pump grant, solar panels payback). Queue: 130 of 456 done.
+
 2026-11-15, Claude Opus 5.5: 10 trending articles (money tricks and new kinds of income) published on R's ask, cash ISA article rewritten (the £12,000 cut was scrapped), three water articles corrected, three out of date articles moved to the front of the improve queue.
 
 2026-11-15 later, Claude Opus 5.5: calculators page, UK money dates page, one line footer on every page (full company details on Contact, Terms, Privacy), llms.txt, robots.txt keeps repo files out of search.
